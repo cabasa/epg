@@ -1,0 +1,18 @@
+push_epg.sh
+# Local runner script
+run_epg.sh
+
+# Run logs (keep latest-run.log tracked)
+logs/run-*.log
+
+logs/live.log
+
+
+# WebGrab local logs/runtime
+wg/WGLicense.log.txt
+wg/WebGrab++.log.txt
+wg/robots/
+
+
+# logs
+logs/

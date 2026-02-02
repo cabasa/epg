@@ -1,0 +1,39 @@
+name: Clean commits (squash main)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  squash:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Squash history into one commit
+        run: |
+          set -e
+          BRANCH="main"
+          git checkout "$BRANCH"
+
+          # Create orphan branch containing current working tree only
+          git checkout --orphan _clean_history
+          git add -A
+          git commit -m "Clean history"
+
+          # Replace main with the orphan commit
+          git branch -D "$BRANCH"
+          git branch -m "$BRANCH"
+
+          # Force push rewritten history
+          git push origin "$BRANCH" --force
