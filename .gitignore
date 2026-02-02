@@ -5,9 +5,9 @@ run_epg.sh
 # Ignore all logs by default
 logs/*
 
-# ...but keep these two for the app
-!logs/latest-run.log
+# ...but keep these tracked
 !logs/.gitkeep
+!logs/latest-run.log
 
 
 # WebGrab local logs/runtime
