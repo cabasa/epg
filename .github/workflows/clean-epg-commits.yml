@@ -1,0 +1,65 @@
+name: Clean EPG Commits
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Keep latest EPG files from current HEAD
+        run: |
+          set -euo pipefail
+          LATEST_SHA="$(git rev-parse HEAD)"
+          mkdir -p /tmp/keep
+          git show "${LATEST_SHA}:epg.xml" > /tmp/keep/epg.xml
+          if git cat-file -e "${LATEST_SHA}:logs/latest-run.log" 2>/dev/null; then
+            git show "${LATEST_SHA}:logs/latest-run.log" > /tmp/keep/latest-run.log
+          else
+            # If file doesn't exist yet, create an empty one so commit doesn't fail
+            : > /tmp/keep/latest-run.log
+          fi
+
+      - name: Find last non-EPG-update commit
+        id: base
+        run: |
+          set -euo pipefail
+          # Pick the most recent commit that is NOT an auto EPG update
+          BASE_SHA="$(git log --invert-grep --grep='^EPG update \(server\)$' -n 1 --pretty=format:%H)"
+          echo "base_sha=${BASE_SHA}" >> "$GITHUB_OUTPUT"
+
+      - name: Reset history to base commit and re-apply latest EPG files
+        run: |
+          set -euo pipefail
+          BASE_SHA="${{ steps.base.outputs.base_sha }}"
+          echo "Base commit: ${BASE_SHA}"
+
+          # Reset branch to the last non-auto commit
+          git reset --hard "${BASE_SHA}"
+
+          # Restore latest EPG artefacts only
+          cp /tmp/keep/epg.xml ./epg.xml
+          mkdir -p logs
+          cp /tmp/keep/latest-run.log ./logs/latest-run.log
+
+          git add epg.xml logs/latest-run.log
+
+          if git diff --cached --quiet; then
+            echo "No changes after cleanup. Nothing to commit."
+            exit 0
+          fi
+
+          git commit -m "EPG update (latest snapshot)"
+
+      - name: Force push cleaned history to main
+        run: |
+          set -euo pipefail
+          git push origin HEAD:main --force
