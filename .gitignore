@@ -2,10 +2,12 @@ push_epg.sh
 # Local runner script
 run_epg.sh
 
-# Run logs (keep latest-run.log tracked)
-logs/run-*.log
+# Ignore all logs by default
+logs/*
 
-logs/live.log
+# ...but keep these two for the app
+!logs/latest-run.log
+!logs/.gitkeep
 
 
 # WebGrab local logs/runtime
