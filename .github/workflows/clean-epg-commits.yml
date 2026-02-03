@@ -21,31 +21,21 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Keep latest epg.xml (and latest-run.log if it exists) from current HEAD
+      - name: Keep latest epg.xml from current HEAD
         run: |
           set -euo pipefail
           LATEST_SHA="$(git rev-parse HEAD)"
-
           mkdir -p /tmp/keep
-
-          # Keep epg.xml from HEAD (required)
           git show "${LATEST_SHA}:epg.xml" > /tmp/keep/epg.xml
-
-          # Keep latest-run.log from HEAD if it exists (optional)
-          if git cat-file -e "${LATEST_SHA}:logs/latest-run.log" 2>/dev/null; then
-            mkdir -p /tmp/keep/logs
-            git show "${LATEST_SHA}:logs/latest-run.log" > /tmp/keep/logs/latest-run.log
-          fi
 
       - name: Find last non-EPG-update commit
         id: base
         run: |
           set -euo pipefail
-          # Most recent commit that is NOT an auto EPG update (server)
           BASE_SHA="$(git log --invert-grep --grep='^EPG update \(server\)$' -n 1 --pretty=format:%H)"
 
           if [ -z "${BASE_SHA:-}" ]; then
-            echo "Could not find a non-EPG-update commit. Aborting to avoid nuking history."
+            echo "Could not find a non-EPG-update commit. Aborting to avoid rewriting to nothing."
             exit 1
           fi
 
@@ -62,17 +52,7 @@ jobs:
 
           # Restore latest epg.xml only
           cp /tmp/keep/epg.xml ./epg.xml
-
-          # Restore latest-run.log only if we kept it
-          if [ -f /tmp/keep/logs/latest-run.log ]; then
-            mkdir -p logs
-            cp /tmp/keep/logs/latest-run.log ./logs/latest-run.log
-          fi
-
           git add epg.xml
-          if [ -f logs/latest-run.log ]; then
-            git add logs/latest-run.log
-          fi
 
           if git diff --cached --quiet; then
             echo "No changes after cleanup. Nothing to commit."
