@@ -25,3 +25,10 @@ logs/
 # local shortcuts
 hämta epg.workflow/
 kör epg flöde - app.app/
+
+# macOS
+.DS_Store
+
+# local shortcuts (do not commit)
+hämta epg.workflow/
+kör epg flöde - app.app/
