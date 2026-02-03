@@ -18,3 +18,6 @@ wg/robots/
 
 # logs
 logs/
+
+# macOS
+.DS_Store
