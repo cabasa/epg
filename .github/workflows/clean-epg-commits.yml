@@ -21,61 +21,64 @@ jobs:
           LATEST_SHA="$(git rev-parse HEAD)"
           mkdir -p /tmp/keep
           git show "${LATEST_SHA}:epg.xml" > /tmp/keep/epg.xml
+          echo "LATEST_SHA=${LATEST_SHA}" >> "$GITHUB_ENV"
 
-      - name: Find last commit that did NOT change epg.xml
-        id: base
+      - name: Find boundary commit (last commit before latest EPG update chain)
+        id: boundary
         run: |
           set -euo pipefail
 
-          # List commits that touched epg.xml (newest first)
-          mapfile -t EPG_COMMITS < <(git rev-list HEAD -- epg.xml)
-
-          if [ "${#EPG_COMMITS[@]}" -eq 0 ]; then
-            echo "No commits found that touch epg.xml. Nothing to clean."
+          # Find the newest EPG update commit
+          LATEST_EPG_SHA="$(git log -n 1 --pretty=format:%H --grep='^EPG update \(server\)$' || true)"
+          if [ -z "${LATEST_EPG_SHA}" ]; then
+            echo "No 'EPG update (server)' commits found. Nothing to clean."
+            echo "boundary_sha=" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          # Walk history from HEAD and pick the first commit that is NOT in EPG_COMMITS
-          BASE_SHA=""
-          while read -r sha; do
-            skip=false
-            for e in "${EPG_COMMITS[@]}"; do
-              if [ "$sha" = "$e" ]; then
-                skip=true
-                break
-              fi
-            done
-            if [ "$skip" = false ]; then
-              BASE_SHA="$sha"
-              break
-            fi
-          done < <(git rev-list HEAD)
+          # Boundary is the parent of that newest EPG update commit
+          BOUNDARY_SHA="$(git rev-parse "${LATEST_EPG_SHA}^")"
+          echo "Latest EPG commit: ${LATEST_EPG_SHA}"
+          echo "Boundary commit: ${BOUNDARY_SHA}"
+          echo "boundary_sha=${BOUNDARY_SHA}" >> "$GITHUB_OUTPUT"
 
-          if [ -z "$BASE_SHA" ]; then
-            echo "Could not find a base commit that doesn't touch epg.xml."
-            echo "This can happen if every commit touches epg.xml."
-            exit 1
-          fi
-
-          echo "base_sha=${BASE_SHA}" >> "$GITHUB_OUTPUT"
-          echo "Base commit: ${BASE_SHA}"
-
-      - name: Reset to base and apply latest epg.xml
+      - name: Rewrite history: snapshot + cherry-pick non-EPG commits
         run: |
           set -euo pipefail
-          BASE_SHA="${{ steps.base.outputs.base_sha }}"
 
-          git reset --hard "${BASE_SHA}"
+          BOUNDARY_SHA="${{ steps.boundary.outputs.boundary_sha }}"
+          if [ -z "${BOUNDARY_SHA}" ]; then
+            echo "No boundary found (no EPG commits). Exiting."
+            exit 0
+          fi
 
+          # Collect commits after boundary up to original HEAD, excluding EPG update commits
+          # We use the original HEAD saved in env (LATEST_SHA) as the upper bound.
+          mapfile -t KEEP_COMMITS < <(
+            git rev-list --reverse "${BOUNDARY_SHA}..${LATEST_SHA}" \
+            --invert-grep --grep='^EPG update \(server\)$'
+          )
+
+          echo "Commits to keep after snapshot:"
+          printf ' - %s\n' "${KEEP_COMMITS[@]:-}"
+
+          # Reset to boundary
+          git reset --hard "${BOUNDARY_SHA}"
+
+          # Apply latest epg.xml and commit snapshot
           cp /tmp/keep/epg.xml ./epg.xml
           git add epg.xml
 
           if git diff --cached --quiet; then
-            echo "No changes after cleanup. Nothing to commit."
-            exit 0
+            echo "No changes to epg.xml to snapshot. Still proceeding with cherry-picks."
+          else
+            git commit -m "EPG snapshot (latest)"
           fi
 
-          git commit -m "EPG snapshot (latest)"
+          # Cherry-pick kept commits (if any)
+          if [ "${#KEEP_COMMITS[@]}" -gt 0 ]; then
+            git cherry-pick "${KEEP_COMMITS[@]}"
+          fi
 
       - name: Force push cleaned history to main
         run: |
