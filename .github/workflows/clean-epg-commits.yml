@@ -15,69 +15,71 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Keep latest epg.xml from current HEAD
+      - name: Keep latest epg.xml from HEAD
         run: |
           set -euo pipefail
-          LATEST_SHA="$(git rev-parse HEAD)"
-          mkdir -p /tmp/keep
-          git show "${LATEST_SHA}:epg.xml" > /tmp/keep/epg.xml
-          echo "LATEST_SHA=${LATEST_SHA}" >> "$GITHUB_ENV"
+          git show HEAD:epg.xml > /tmp/epg.xml
 
-      - name: Find boundary commit (last commit before latest EPG update chain)
+      - name: Find boundary (commit before latest EPG update)
         id: boundary
         run: |
           set -euo pipefail
 
-          # Find the newest EPG update commit
           LATEST_EPG_SHA="$(git log -n 1 --pretty=format:%H --grep='^EPG update \(server\)$' || true)"
-          if [ -z "${LATEST_EPG_SHA}" ]; then
+          if [ -z "$LATEST_EPG_SHA" ]; then
             echo "No 'EPG update (server)' commits found. Nothing to clean."
             echo "boundary_sha=" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          # Boundary is the parent of that newest EPG update commit
           BOUNDARY_SHA="$(git rev-parse "${LATEST_EPG_SHA}^")"
-          echo "Latest EPG commit: ${LATEST_EPG_SHA}"
-          echo "Boundary commit: ${BOUNDARY_SHA}"
-          echo "boundary_sha=${BOUNDARY_SHA}" >> "$GITHUB_OUTPUT"
+          echo "Latest EPG commit: $LATEST_EPG_SHA"
+          echo "Boundary commit: $BOUNDARY_SHA"
+          echo "boundary_sha=$BOUNDARY_SHA" >> "$GITHUB_OUTPUT"
 
-      - name: Rewrite history: snapshot + cherry-pick non-EPG commits
+      - name: Rewrite history (snapshot + keep non-EPG commits)
         run: |
           set -euo pipefail
 
           BOUNDARY_SHA="${{ steps.boundary.outputs.boundary_sha }}"
-          if [ -z "${BOUNDARY_SHA}" ]; then
-            echo "No boundary found (no EPG commits). Exiting."
+          if [ -z "$BOUNDARY_SHA" ]; then
+            echo "Nothing to do."
             exit 0
           fi
 
-          # Collect commits after boundary up to original HEAD, excluding EPG update commits
-          # We use the original HEAD saved in env (LATEST_SHA) as the upper bound.
-          mapfile -t KEEP_COMMITS < <(
-            git rev-list --reverse "${BOUNDARY_SHA}..${LATEST_SHA}" \
-            --invert-grep --grep='^EPG update \(server\)$'
-          )
+          # List commits after boundary (oldest -> newest)
+          git rev-list --reverse "${BOUNDARY_SHA}..HEAD" > /tmp/all_commits.txt
 
-          echo "Commits to keep after snapshot:"
-          printf ' - %s\n' "${KEEP_COMMITS[@]:-}"
+          # Keep everything except "EPG update (server)"
+          : > /tmp/keep_commits.txt
+          while IFS= read -r sha; do
+            subj="$(git log -1 --pretty=format:%s "$sha")"
+            if [ "$subj" != "EPG update (server)" ]; then
+              echo "$sha" >> /tmp/keep_commits.txt
+            fi
+          done < /tmp/all_commits.txt
+
+          echo "Commits to keep:"
+          cat /tmp/keep_commits.txt || true
 
           # Reset to boundary
-          git reset --hard "${BOUNDARY_SHA}"
+          git reset --hard "$BOUNDARY_SHA"
 
-          # Apply latest epg.xml and commit snapshot
-          cp /tmp/keep/epg.xml ./epg.xml
+          # Apply latest epg.xml and commit snapshot (only if it changes)
+          cp /tmp/epg.xml ./epg.xml
           git add epg.xml
 
           if git diff --cached --quiet; then
-            echo "No changes to epg.xml to snapshot. Still proceeding with cherry-picks."
+            echo "epg.xml identical after reset; no snapshot commit needed."
           else
             git commit -m "EPG snapshot (latest)"
           fi
 
-          # Cherry-pick kept commits (if any)
-          if [ "${#KEEP_COMMITS[@]}" -gt 0 ]; then
-            git cherry-pick "${KEEP_COMMITS[@]}"
+          # Cherry-pick kept commits
+          if [ -s /tmp/keep_commits.txt ]; then
+            while IFS= read -r sha; do
+              git cherry-pick "$sha"
+            done < /tmp/keep_commits.txt
           fi
 
       - name: Force push cleaned history to main
