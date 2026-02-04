@@ -20,24 +20,26 @@ jobs:
           set -euo pipefail
           git show HEAD:epg.xml > /tmp/epg.xml
 
-      - name: Find boundary (commit before latest EPG update)
+      - name: Find boundary (commit before latest epg.xml-changing commit)
         id: boundary
         run: |
           set -euo pipefail
 
-          LATEST_EPG_SHA="$(git log -n 1 --pretty=format:%H --grep='^EPG update \(server\)$' || true)"
+          # Latest commit that touched epg.xml
+          LATEST_EPG_SHA="$(git rev-list -n 1 HEAD -- epg.xml || true)"
           if [ -z "$LATEST_EPG_SHA" ]; then
-            echo "No 'EPG update (server)' commits found. Nothing to clean."
+            echo "No commits found that touch epg.xml. Nothing to clean."
             echo "boundary_sha=" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
+          # Boundary is parent of that commit
           BOUNDARY_SHA="$(git rev-parse "${LATEST_EPG_SHA}^")"
-          echo "Latest EPG commit: $LATEST_EPG_SHA"
+          echo "Latest epg.xml commit: $LATEST_EPG_SHA"
           echo "Boundary commit: $BOUNDARY_SHA"
           echo "boundary_sha=$BOUNDARY_SHA" >> "$GITHUB_OUTPUT"
 
-      - name: Rewrite history (snapshot + keep non-EPG commits)
+      - name: Rewrite history (snapshot + keep non-epg.xml commits)
         run: |
           set -euo pipefail
 
@@ -47,25 +49,26 @@ jobs:
             exit 0
           fi
 
-          # List commits after boundary (oldest -> newest)
+          # Commits after boundary (oldest -> newest)
           git rev-list --reverse "${BOUNDARY_SHA}..HEAD" > /tmp/all_commits.txt
 
-          # Keep everything except "EPG update (server)"
+          # Keep commits that do NOT touch epg.xml
           : > /tmp/keep_commits.txt
           while IFS= read -r sha; do
-            subj="$(git log -1 --pretty=format:%s "$sha")"
-            if [ "$subj" != "EPG update (server)" ]; then
+            if git show --name-only --pretty=format: "$sha" | grep -qx "epg.xml"; then
+              : # skip commits that touched epg.xml
+            else
               echo "$sha" >> /tmp/keep_commits.txt
             fi
           done < /tmp/all_commits.txt
 
-          echo "Commits to keep:"
+          echo "Commits to keep (do not touch epg.xml):"
           cat /tmp/keep_commits.txt || true
 
           # Reset to boundary
           git reset --hard "$BOUNDARY_SHA"
 
-          # Apply latest epg.xml and commit snapshot (only if it changes)
+          # Apply latest epg.xml and commit snapshot
           cp /tmp/epg.xml ./epg.xml
           git add epg.xml
 
