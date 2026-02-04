@@ -5,6 +5,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   clean:
@@ -30,6 +31,7 @@ jobs:
         run: |
           set -euo pipefail
 
+          # Latest commit that touched epg.xml
           LATEST_EPG_SHA="$(git rev-list -n 1 HEAD -- epg.xml || true)"
           if [ -z "$LATEST_EPG_SHA" ]; then
             echo "No commits found that touch epg.xml. Nothing to clean."
@@ -37,6 +39,7 @@ jobs:
             exit 0
           fi
 
+          # Boundary is parent of that commit
           BOUNDARY_SHA="$(git rev-parse "${LATEST_EPG_SHA}^")"
           echo "Latest epg.xml commit: $LATEST_EPG_SHA"
           echo "Boundary commit: $BOUNDARY_SHA"
@@ -52,8 +55,10 @@ jobs:
             exit 0
           fi
 
+          # Commits after boundary (oldest -> newest)
           git rev-list --reverse "${BOUNDARY_SHA}..HEAD" > /tmp/all_commits.txt
 
+          # Keep commits that do NOT touch epg.xml and do NOT touch logs/
           : > /tmp/keep_commits.txt
           while IFS= read -r sha; do
             files="$(git show --name-only --pretty=format: "$sha")"
@@ -63,7 +68,7 @@ jobs:
               continue
             fi
 
-            # Skip commits that touch logs/ (prevents conflicts)
+            # Skip commits that touch anything under logs/
             if echo "$files" | grep -q '^logs/'; then
               continue
             fi
@@ -74,8 +79,10 @@ jobs:
           echo "Commits to keep (do not touch epg.xml or logs/):"
           cat /tmp/keep_commits.txt || true
 
+          # Reset to boundary
           git reset --hard "$BOUNDARY_SHA"
 
+          # Apply latest epg.xml and commit snapshot
           cp /tmp/epg.xml ./epg.xml
           git add epg.xml
 
@@ -85,6 +92,7 @@ jobs:
             git commit -m "EPG snapshot (latest)"
           fi
 
+          # Cherry-pick kept commits
           if [ -s /tmp/keep_commits.txt ]; then
             while IFS= read -r sha; do
               git cherry-pick "$sha"
@@ -95,3 +103,15 @@ jobs:
         run: |
           set -euo pipefail
           git push origin HEAD:main --force
+
+      - name: Trigger Run EPG workflow (run-webgrab.yml)
+        run: |
+          set -euo pipefail
+
+          # Trigger the workflow via GitHub API
+          curl -sS -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/run-webgrab.yml/dispatches \
+            -d '{"ref":"main"}'
