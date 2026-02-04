@@ -22,23 +22,38 @@ jobs:
           mkdir -p /tmp/keep
           git show "${LATEST_SHA}:epg.xml" > /tmp/keep/epg.xml
 
-      - name: Find last non-EPG-related commit
+      - name: Find last commit that did NOT change epg.xml
         id: base
         run: |
           set -euo pipefail
 
-          # Treat these as "auto/epg churn" commits that we want to squash away
-          # Add more patterns here if you introduce new automated messages later.
-          BASE_SHA="$(
-            git log -n 1 --pretty=format:%H \
-              --invert-grep \
-              --grep='^EPG update \(server\)$' \
-              --grep='^Update latest-run\.log \(snapshot\)$' \
-              --grep='^EPG snapshot \(latest\)$'
-          )"
+          # List commits that touched epg.xml (newest first)
+          mapfile -t EPG_COMMITS < <(git rev-list HEAD -- epg.xml)
 
-          if [ -z "${BASE_SHA}" ]; then
-            echo "Could not find a non-EPG-related base commit."
+          if [ "${#EPG_COMMITS[@]}" -eq 0 ]; then
+            echo "No commits found that touch epg.xml. Nothing to clean."
+            exit 0
+          fi
+
+          # Walk history from HEAD and pick the first commit that is NOT in EPG_COMMITS
+          BASE_SHA=""
+          while read -r sha; do
+            skip=false
+            for e in "${EPG_COMMITS[@]}"; do
+              if [ "$sha" = "$e" ]; then
+                skip=true
+                break
+              fi
+            done
+            if [ "$skip" = false ]; then
+              BASE_SHA="$sha"
+              break
+            fi
+          done < <(git rev-list HEAD)
+
+          if [ -z "$BASE_SHA" ]; then
+            echo "Could not find a base commit that doesn't touch epg.xml."
+            echo "This can happen if every commit touches epg.xml."
             exit 1
           fi
 
@@ -52,9 +67,7 @@ jobs:
 
           git reset --hard "${BASE_SHA}"
 
-          # Restore latest EPG snapshot only
           cp /tmp/keep/epg.xml ./epg.xml
-
           git add epg.xml
 
           if git diff --cached --quiet; then
