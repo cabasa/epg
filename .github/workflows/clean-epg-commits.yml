@@ -15,6 +15,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Configure git author
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Keep latest epg.xml from HEAD
         run: |
           set -euo pipefail
@@ -25,7 +30,6 @@ jobs:
         run: |
           set -euo pipefail
 
-          # Latest commit that touched epg.xml
           LATEST_EPG_SHA="$(git rev-list -n 1 HEAD -- epg.xml || true)"
           if [ -z "$LATEST_EPG_SHA" ]; then
             echo "No commits found that touch epg.xml. Nothing to clean."
@@ -33,7 +37,6 @@ jobs:
             exit 0
           fi
 
-          # Boundary is parent of that commit
           BOUNDARY_SHA="$(git rev-parse "${LATEST_EPG_SHA}^")"
           echo "Latest epg.xml commit: $LATEST_EPG_SHA"
           echo "Boundary commit: $BOUNDARY_SHA"
@@ -49,10 +52,8 @@ jobs:
             exit 0
           fi
 
-          # Commits after boundary (oldest -> newest)
           git rev-list --reverse "${BOUNDARY_SHA}..HEAD" > /tmp/all_commits.txt
 
-          # Keep commits that do NOT touch epg.xml
           : > /tmp/keep_commits.txt
           while IFS= read -r sha; do
             if git show --name-only --pretty=format: "$sha" | grep -qx "epg.xml"; then
@@ -65,10 +66,8 @@ jobs:
           echo "Commits to keep (do not touch epg.xml):"
           cat /tmp/keep_commits.txt || true
 
-          # Reset to boundary
           git reset --hard "$BOUNDARY_SHA"
 
-          # Apply latest epg.xml and commit snapshot
           cp /tmp/epg.xml ./epg.xml
           git add epg.xml
 
@@ -78,7 +77,6 @@ jobs:
             git commit -m "EPG snapshot (latest)"
           fi
 
-          # Cherry-pick kept commits
           if [ -s /tmp/keep_commits.txt ]; then
             while IFS= read -r sha; do
               git cherry-pick "$sha"
