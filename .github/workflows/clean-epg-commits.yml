@@ -42,7 +42,7 @@ jobs:
           echo "Boundary commit: $BOUNDARY_SHA"
           echo "boundary_sha=$BOUNDARY_SHA" >> "$GITHUB_OUTPUT"
 
-      - name: Rewrite history (snapshot + keep non-epg.xml commits)
+      - name: Rewrite history (snapshot + keep non-epg/logs commits)
         run: |
           set -euo pipefail
 
@@ -56,14 +56,22 @@ jobs:
 
           : > /tmp/keep_commits.txt
           while IFS= read -r sha; do
-            if git show --name-only --pretty=format: "$sha" | grep -qx "epg.xml"; then
-              : # skip commits that touched epg.xml
-            else
-              echo "$sha" >> /tmp/keep_commits.txt
+            files="$(git show --name-only --pretty=format: "$sha")"
+
+            # Skip commits that touch epg.xml
+            if echo "$files" | grep -qx "epg.xml"; then
+              continue
             fi
+
+            # Skip commits that touch logs/ (prevents conflicts)
+            if echo "$files" | grep -q '^logs/'; then
+              continue
+            fi
+
+            echo "$sha" >> /tmp/keep_commits.txt
           done < /tmp/all_commits.txt
 
-          echo "Commits to keep (do not touch epg.xml):"
+          echo "Commits to keep (do not touch epg.xml or logs/):"
           cat /tmp/keep_commits.txt || true
 
           git reset --hard "$BOUNDARY_SHA"
