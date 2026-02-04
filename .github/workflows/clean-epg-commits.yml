@@ -15,12 +15,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Configure git identity
-        run: |
-          set -euo pipefail
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
       - name: Keep latest epg.xml from current HEAD
         run: |
           set -euo pipefail
@@ -28,30 +22,39 @@ jobs:
           mkdir -p /tmp/keep
           git show "${LATEST_SHA}:epg.xml" > /tmp/keep/epg.xml
 
-      - name: Find last non-EPG-update commit
+      - name: Find last non-EPG-related commit
         id: base
         run: |
           set -euo pipefail
-          BASE_SHA="$(git log --invert-grep --grep='^EPG update \(server\)$' -n 1 --pretty=format:%H)"
 
-          if [ -z "${BASE_SHA:-}" ]; then
-            echo "Could not find a non-EPG-update commit. Aborting to avoid rewriting to nothing."
+          # Treat these as "auto/epg churn" commits that we want to squash away
+          # Add more patterns here if you introduce new automated messages later.
+          BASE_SHA="$(
+            git log -n 1 --pretty=format:%H \
+              --invert-grep \
+              --grep='^EPG update \(server\)$' \
+              --grep='^Update latest-run\.log \(snapshot\)$' \
+              --grep='^EPG snapshot \(latest\)$'
+          )"
+
+          if [ -z "${BASE_SHA}" ]; then
+            echo "Could not find a non-EPG-related base commit."
             exit 1
           fi
 
           echo "base_sha=${BASE_SHA}" >> "$GITHUB_OUTPUT"
+          echo "Base commit: ${BASE_SHA}"
 
-      - name: Reset history to base commit and re-apply latest epg.xml only
+      - name: Reset to base and apply latest epg.xml
         run: |
           set -euo pipefail
           BASE_SHA="${{ steps.base.outputs.base_sha }}"
-          echo "Base commit: ${BASE_SHA}"
 
-          # Reset branch to the last non-auto commit
           git reset --hard "${BASE_SHA}"
 
-          # Restore latest epg.xml only
+          # Restore latest EPG snapshot only
           cp /tmp/keep/epg.xml ./epg.xml
+
           git add epg.xml
 
           if git diff --cached --quiet; then
@@ -59,9 +62,9 @@ jobs:
             exit 0
           fi
 
-          git commit -m "EPG update (latest snapshot)"
+          git commit -m "EPG snapshot (latest)"
 
       - name: Force push cleaned history to main
         run: |
           set -euo pipefail
-          git push origin HEAD:main --force-with-lease
+          git push origin HEAD:main --force
