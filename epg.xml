@@ -1375,6 +1375,12 @@
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">E28/260</episode-num>
   </programme>
+  <programme start="20260210080000 +0000" stop="20260210081500 +0000" channel="SVT1 FHD SE">
+    <title lang="sv">OS 2026: Huvudsändning</title>
+    <desc lang="sv">Milano/Cortina. Direktsändning från OS i Milano/Cortina. I dagens sändning väntar bland annat final i curling, alpina kombinationstävlingen, ishockey, längdskidor och puckelpist.(n)</desc>
+    <date>2026</date>
+    <country lang="sv">SWE</country>
+  </programme>
   <programme start="20260210081500 +0000" stop="20260210094500 +0000" channel="SVT1 FHD SE">
     <title lang="sv">OS 2026: Längdskidor</title>
     <desc lang="sv">Val di Fiemme. Längdskidornas OS-sprint i Milano/Cortina drar igång med kval. De svenska längdåkarna jagar medaljer.(n)</desc>
@@ -1487,7 +1493,7 @@
   </programme>
   <programme start="20260210190000 +0000" stop="20260210200000 +0000" channel="SVT1 FHD SE">
     <title lang="sv">Fråga doktorn</title>
-    <desc lang="sv">Programledare Linda Olofsson och husdoktorn Jens Persson tar emot tittarfrågor och fördjupar sig i veckans tema: testosteron.. Medverkande är överläkaren Mikael Lehtihet och forskaren Ida Linander.(n)</desc>
+    <desc lang="sv">Vi följer upp tittarnas frågor om testosteron.. Vi reder ut myter och fakta, diskuterar svettningar, manliga forumsnack och varför för få unga män söker hjälp på ungdomsmottagningen.. Forskaren Ida Linander och husläkare Jens Persson medverkar i studion tillsammans med programledare Linda Olofsson.(n)</desc>
     <date>2026</date>
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S36 E4/10</episode-num>
@@ -1532,12 +1538,6 @@
     </credits>
     <date>2021</date>
     <country lang="sv">USA</country>
-  </programme>
-  <programme start="20260211001500 +0000" stop="20260211011500 +0000" channel="SVT1 FHD SE">
-    <title lang="sv">Carina Bergfeldt</title>
-    <date>2026</date>
-    <country lang="sv">SWE</country>
-    <episode-num system="onscreen">S10 E5/10</episode-num>
   </programme>
   <programme start="20260211041500 +0000" stop="20260211050000 +0000" channel="SVT1 FHD SE">
     <title lang="sv">Landet runt</title>
@@ -2038,7 +2038,7 @@
   </programme>
   <programme start="20260207082000 +0000" stop="20260207085000 +0000" channel="SVT2 FHD SE">
     <title lang="sv">Utrikesbyrån</title>
-    <desc lang="sv">Är Kuba USA:s nästa måltavla efter Venezuela? President Donald Trump och utrikesminister Marco Rubio ökar nu pressen på regimen i Havanna.. Men lyckas de med sitt mål, att få det snart 70-åriga kommunistiska styret att falla?. Medverkande: Tigran Feiler, SVT:s korrespondent i Latinamerika, Jan Hallenberg, expert USA:s säkerhets- och utrikespolitik samt Fernando Arias, tidigare USA-korrespondent SR.(n)</desc>
+    <desc lang="sv">Är Kuba USA:s nästa måltavla i Latinamerika efter Venezuela?. President Donald Trump och utrikesminister Marco Rubio ökar nu pressen på regimen i Havanna. Men lyckas de med sitt mål, att få det snart 70-åriga kommunistiska styret att falla?. Medverkande: Tigran Feiler, SVT:s korrespondent i Latinamerika, Jan Hallenberg, expert USA:s säkerhets- och utrikespolitik samt Fernando Arias, tidigare USA-korrespondent SR.(n)</desc>
     <date>2026</date>
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S13 E4/21</episode-num>
@@ -2052,12 +2052,14 @@
   </programme>
   <programme start="20260207092000 +0000" stop="20260207095000 +0000" channel="SVT2 FHD SE">
     <title lang="sv">Politikbyrån</title>
+    <desc lang="sv">Av högern målas Vänsterpartiets Nooshi Dadgostar ut som ett skräckexempel - som möjlig finansminister i en regering ledd av Magdalena Andersson.. Men hur ser egentligen Vänsterpartiets plan ut? Varför ser vi Nooshi Dadgostar festa hela tiden? Och vad hände egentligen när partiledningen bokade drinkbord på Spy Bar?. Kommer Vänsterpartiet till slut lyckas skaka av sig rollen som dörrmatta till Socialdemokraterna för att i stället släppas in i värmen? I studion möts före detta riksdagsledamoten Linda Snecker, Flammans redaktör Leonidas Aretakis, liberalen Mattias Svensson och På spåret-vinnaren och komikern Kirsty Armstrong.(n)</desc>
     <date>2026</date>
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S13 E4/21</episode-num>
   </programme>
   <programme start="20260207095000 +0000" stop="20260207102000 +0000" channel="SVT2 FHD SE">
     <title lang="sv">30 minuter</title>
+    <desc lang="sv">Valspecialen med alla partiledarna fortsätter.. Och nu är det Centerpartiets partiledare Elisabet Thand Ringqvists tur att bli intervjuad av Anders Holmberg.(n)</desc>
     <date>2026</date>
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S11 E4/14</episode-num>
@@ -2351,28 +2353,28 @@
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">E39/261</episode-num>
   </programme>
-  <programme start="20260208220500 +0000" stop="20260208230500 +0000" channel="SVT2 FHD SE">
+  <programme start="20260208220500 +0000" stop="20260208225000 +0000" channel="SVT2 FHD SE">
     <title lang="sv">Gudstjänst</title>
     <desc lang="sv">Kyndelsmässodagens gudstjänst sänds från Västerportkyrkan i Kalmar.. Gemenskap är temat och över detta predikar pastor och föreståndare Peter Svanberg, och Sanna Nyberg leder gudstjänsten. Lovsångsteamet medverkar under ledning Emma Berisson.(n)</desc>
     <date>2026</date>
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">E8/53</episode-num>
   </programme>
-  <programme start="20260208230500 +0000" stop="20260208233500 +0000" channel="SVT2 FHD SE">
+  <programme start="20260208225000 +0000" stop="20260208230500 +0000" channel="SVT2 FHD SE">
     <title lang="sv">Mest finsk</title>
     <desc lang="sv">Ett arbetsamt folk – USA del 2.. Jaris och Janis amerikanska roadtrip fortsätter mot Hancock i Michigan dit de första stora migrantmassorna reste kring förra sekelskiftet.. Småstaden är förvånansvärt finländsk och här känns det fosterländskt att sätta tänderna i en kanelbulle. Finsk serie från 2024.(n)</desc>
     <date>2024</date>
     <country lang="sv">FIN</country>
     <episode-num system="onscreen">S3 E4/8</episode-num>
   </programme>
-  <programme start="20260208233500 +0000" stop="20260208234000 +0000" channel="SVT2 FHD SE">
-    <title lang="sv">Glöd</title>
-    <desc lang="sv">Ett filmpoetiskt möte, ett hemlöst språk, en bortglömd plats, en profetisk dikt. Kortfilm i regi av Gunnar Bergdahl.. Filmen ingår i Svenska Filminstitutets projekt Glöd, där Sveriges urfolk och nationella minoriteter berättar sina historier.(n)</desc>
-    <date>2020</date>
-    <country lang="sv">SWE</country>
-    <episode-num system="onscreen">E4/10</episode-num>
+  <programme start="20260208230500 +0000" stop="20260208232500 +0000" channel="SVT2 FHD SE">
+    <title lang="sv">Mest finsk</title>
+    <desc lang="sv">Ett arbetsamt folk – USA del 2.. Jaris och Janis amerikanska roadtrip fortsätter mot Hancock i Michigan dit de första stora migrantmassorna reste kring förra sekelskiftet.. Småstaden är förvånansvärt finländsk och här känns det fosterländskt att sätta tänderna i en kanelbulle. Finsk serie från 2024.(n)</desc>
+    <date>2024</date>
+    <country lang="sv">FIN</country>
+    <episode-num system="onscreen">S3 E4/8</episode-num>
   </programme>
-  <programme start="20260208234000 +0000" stop="20260209000500 +0000" channel="SVT2 FHD SE">
+  <programme start="20260208232500 +0000" stop="20260208235000 +0000" channel="SVT2 FHD SE">
     <title lang="sv">Det här är svenskt teckenspråk</title>
     <desc lang="sv">Facktermer och barns teckenspråk. Monika visar upp olika tecken som hon använder som lastbilsförare.. Thomas Björkstrand från Teckenspråkslexikonet berättar om tecken som tidigare bestått av två eller flera tecken.. Språkvårdaren Sebastian Embacher förklarar bokstaverande tecken och vad som är typiskt för dem.(n)</desc>
     <date>2024</date>
@@ -2425,12 +2427,19 @@
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S1 E1/3</episode-num>
   </programme>
-  <programme start="20260209140000 +0000" stop="20260209150000 +0000" channel="SVT2 FHD SE">
+  <programme start="20260209140000 +0000" stop="20260209144500 +0000" channel="SVT2 FHD SE">
     <title lang="sv">Gudstjänst</title>
     <desc lang="sv">Kyndelsmässodagens gudstjänst sänds från Västerportkyrkan i Kalmar.. Gemenskap är temat och över detta predikar pastor och föreståndare Peter Svanberg, och Sanna Nyberg leder gudstjänsten. Lovsångsteamet medverkar under ledning Emma Berisson.(n)</desc>
     <date>2026</date>
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">E8/53</episode-num>
+  </programme>
+  <programme start="20260209144500 +0000" stop="20260209150000 +0000" channel="SVT2 FHD SE">
+    <title lang="sv">Äventyr på vinterfjället</title>
+    <desc lang="sv">Vi följer med Per-Anders på ett skidäventyr längs med Kungsleden i Norra Lappland tillsammans med ripor, järvar och europeiska turister.. Men det blir en tuff resa då fjällvädret ändras snabbt!(n)</desc>
+    <date>2024</date>
+    <country lang="sv">SWE</country>
+    <episode-num system="onscreen">S1 E1/2</episode-num>
   </programme>
   <programme start="20260209150000 +0000" stop="20260209150100 +0000" channel="SVT2 FHD SE">
     <title lang="sv">Sverige live</title>
@@ -2535,6 +2544,7 @@
   </programme>
   <programme start="20260209232000 +0000" stop="20260209235000 +0000" channel="SVT2 FHD SE">
     <title lang="sv">30 minuter</title>
+    <desc lang="sv">Valspecialen med alla partiledarna fortsätter.. Och nu är det Centerpartiets partiledare Elisabet Thand Ringqvists tur att bli intervjuad av Anders Holmberg.(n)</desc>
     <date>2026</date>
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S11 E4/14</episode-num>
@@ -2551,6 +2561,12 @@
     <date>2026</date>
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">E28/370</episode-num>
+  </programme>
+  <programme start="20260210083500 +0000" stop="20260210092000 +0000" channel="SVT2 FHD SE">
+    <title lang="sv">Landet runt</title>
+    <date>2026</date>
+    <country lang="sv">SWE</country>
+    <episode-num system="onscreen">E5/23</episode-num>
   </programme>
   <programme start="20260210092000 +0000" stop="20260210105000 +0000" channel="SVT2 FHD SE">
     <title lang="sv">OS 2026: Alpint</title>
@@ -2663,13 +2679,6 @@
     <date>2026</date>
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">E4/20</episode-num>
-  </programme>
-  <programme start="20260210235000 +0000" stop="20260211003000 +0000" channel="SVT2 FHD SE">
-    <title lang="sv">Agenten – pappas liv och lögner</title>
-    <desc lang="sv">Bjørns arbete som tv-producent gav en perfekt täckmantel för underrättelseuppdrag. Men var gick egentligen den moraliska gränsen?(n)</desc>
-    <date>2025</date>
-    <country lang="sv">NOR</country>
-    <episode-num system="onscreen">S1 E5/6</episode-num>
   </programme>
   <programme start="20260211003000 +0000" stop="20260211004500 +0000" channel="SVT2 FHD SE">
     <title lang="sv">Sportnytt</title>
@@ -3835,6 +3844,13 @@
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S18 E4/20</episode-num>
   </programme>
+  <programme start="20260210090000 +0000" stop="20260210100500 +0000" channel="TV3 FHD SE">
+    <title lang="sv">Brottskod: Försvunnen</title>
+    <desc lang="sv">Brottsutredarna söker efter en mor och hennes två barn, som senast sågs när de steg ombord på en yacht.(n)</desc>
+    <date>2003</date>
+    <country lang="sv">USA</country>
+    <episode-num system="onscreen">S2 E24/24</episode-num>
+  </programme>
   <programme start="20260210100500 +0000" stop="20260210110000 +0000" channel="TV3 FHD SE">
     <title lang="sv">Stugfixarna Norge</title>
     <desc lang="sv">Säsongens sista projekt ligger i Geilos vinterparadis med utsikt mot den fantastiska Hallingskarvet.. Killarna vill ge den trötta stugan en solid ansiktslyftning, förnya köket och utöka vardagsrummet.(n)</desc>
@@ -3974,13 +3990,6 @@
     <date>2019</date>
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S5 E3/8</episode-num>
-  </programme>
-  <programme start="20260211030000 +0000" stop="20260211035500 +0000" channel="TV3 FHD SE">
-    <title lang="sv">Charterfeber</title>
-    <desc lang="sv">Sommaren är i full gång och det är dags att träffa reselystna norrmän som ser fram emot att få känna sydens värme igen.(n)</desc>
-    <date>2018</date>
-    <country lang="sv">NOR</country>
-    <episode-num system="onscreen">S9 E1/20</episode-num>
   </programme>
   <programme start="20260211035500 +0000" stop="20260211042500 +0000" channel="TV3 FHD SE">
     <title lang="sv">Nanny</title>
@@ -6011,14 +6020,14 @@
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S7 E11/14</episode-num>
   </programme>
-  <programme start="20260209200000 +0000" stop="20260209210500 +0000" channel="Kanal 5 FHD SE">
+  <programme start="20260209200000 +0000" stop="20260209210000 +0000" channel="Kanal 5 FHD SE">
     <title lang="sv">Renoveringsdrömmar</title>
     <desc lang="sv">Anny försöker flytta en godsvagn på tjugo ton som stått helt still i femtio år.. Jennie och Rasmus har köpt en stor skola på 350 kvm som de renoverar själva och mitt i byggkaoset väntar de sitt första barn.(n)</desc>
     <date>2024</date>
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S1 E5/12</episode-num>
   </programme>
-  <programme start="20260209210500 +0000" stop="20260209220000 +0000" channel="Kanal 5 FHD SE">
+  <programme start="20260209210000 +0000" stop="20260209220000 +0000" channel="Kanal 5 FHD SE">
     <title lang="sv">Här är ditt kylskåp</title>
     <desc lang="sv">Komikern Sofia Dalén tar emot Tareq med ett kylskåp fyllt med ost och med hopp om att bli mer kreativ i köket.. För Tareq blir det svårt att välja råvaror och han bestämmer sig för att gasa på med more is more! Till middagen ansluter Sofias pappa Per.(n)</desc>
     <date>2025</date>
@@ -6192,6 +6201,13 @@
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S3 E6/32</episode-num>
   </programme>
+  <programme start="20260210190000 +0000" stop="20260210200000 +0000" channel="Kanal 5 FHD SE">
+    <title lang="sv">Gränsbevakarna Sverige</title>
+    <desc lang="sv">På Öresundsbron misstänker Stefan smuggel när han stoppar en bil fylld med öl från golv till tak.. Samtidigt får Claes fullt upp med en full fransos som kissat på terminalgolvet.(n)</desc>
+    <date>2025</date>
+    <country lang="sv">SWE</country>
+    <episode-num system="onscreen">S7 E12/14</episode-num>
+  </programme>
   <programme start="20260210200000 +0000" stop="20260210210000 +0000" channel="Kanal 5 FHD SE">
     <title lang="sv">Stugdrömmar</title>
     <desc lang="sv">Maries ensliga timmerstuga ligger ett stenkast från polcirkeln.. Stugan har gått i arv i generationer och köket byggdes för 80 år sedan av Maries morfar. Nu drömmer Marie om att rusta upp köket men ändå bevara släktens historia och morfars avtryck i stugan.(n)</desc>
@@ -6199,14 +6215,14 @@
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S1 E12/12</episode-num>
   </programme>
-  <programme start="20260210210000 +0000" stop="20260210215500 +0000" channel="Kanal 5 FHD SE">
+  <programme start="20260210210000 +0000" stop="20260210220000 +0000" channel="Kanal 5 FHD SE">
     <title lang="sv">Här är ditt kylskåp</title>
     <desc lang="sv">Det bjuds på show med kroppsstrumpa, rullskridskor och raketer när Tareq besöker komikern Måns Möller.. Måns är inte så mycket för att laga mat hemma, men hoppas att Tareq blir vändningen. Till sin hjälp i köket har Tareq och Måns hjälp av jobbskuggan.(n)</desc>
     <date>2025</date>
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S3 E6/32</episode-num>
   </programme>
-  <programme start="20260210215500 +0000" stop="20260210225500 +0000" channel="Kanal 5 FHD SE">
+  <programme start="20260210220000 +0000" stop="20260210225500 +0000" channel="Kanal 5 FHD SE">
     <title lang="sv">Law &amp; order: Special victims unit</title>
     <desc lang="sv">En ung kvinna ber Benson om hjälp med att hitta hennes biologiska föräldrar. Carisi och Rollins funderar på om de kan berätta om sitt förhållande.(n)</desc>
     <date>2021</date>
@@ -6254,13 +6270,6 @@
     <date>2018</date>
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S2 E2/10</episode-num>
-  </programme>
-  <programme start="20260211043000 +0000" stop="20260211045800 +0000" channel="Kanal 5 FHD SE">
-    <title lang="sv">Sommaren med släkten</title>
-    <desc lang="sv">När Åsa och Bobo råkar repa Carros nya motorbåt drar Åsa en lögn som får jobbiga konsekvenser.. Samfällighetsordföranden misstänker att Jens dricker för mycket och Jens gör allt han kan för att motbevisa honom.(n)</desc>
-    <date>2018</date>
-    <country lang="sv">SWE</country>
-    <episode-num system="onscreen">S2 E3/10</episode-num>
   </programme>
   <programme start="20260204050000 +0000" stop="20260204053000 +0000" channel="TV6 HD SE">
     <title lang="sv">Våra värsta år</title>
@@ -7475,6 +7484,7 @@
   </programme>
   <programme start="20260210043000 +0000" stop="20260210050000 +0000" channel="TV6 HD SE">
     <title lang="sv">Family guy</title>
+    <desc lang="sv">Peter och hans vänner har som mål att besegra den regerande mästaren i Quahogs årliga pumpatävling med alla medel.(n)</desc>
     <date>2023</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S23 E1/20</episode-num>
@@ -7553,13 +7563,6 @@
     <date>1997</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S2 E1/22</episode-num>
-  </programme>
-  <programme start="20260210110000 +0000" stop="20260210120000 +0000" channel="TV6 HD SE">
-    <title lang="sv">Pacific Blue</title>
-    <desc lang="sv">TCs flickvän Sandy attackeras hemma av en serievåldtäktsman som kallas "The Daystalker".(n)</desc>
-    <date>1997</date>
-    <country lang="sv">USA</country>
-    <episode-num system="onscreen">S2 E2/22</episode-num>
   </programme>
   <programme start="20260210120000 +0000" stop="20260210130000 +0000" channel="TV6 HD SE">
     <title lang="sv">Unforgettable</title>
@@ -7675,9 +7678,17 @@
   </programme>
   <programme start="20260211035000 +0000" stop="20260211042500 +0000" channel="TV6 HD SE">
     <title lang="sv">Family guy</title>
+    <desc lang="sv">Peter och hans vänner har som mål att besegra den regerande mästaren i Quahogs årliga pumpatävling med alla medel.(n)</desc>
     <date>2023</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S23 E1/20</episode-num>
+  </programme>
+  <programme start="20260211042500 +0000" stop="20260211050000 +0000" channel="TV6 HD SE">
+    <title lang="sv">Family guy</title>
+    <desc lang="sv">Peter måste hitta Lois julbrosch efter att ha gett bort den. Stewie ändrar sin attityd när han får reda på att han står på jultomtens stygga lista.(n)</desc>
+    <date>2023</date>
+    <country lang="sv">USA</country>
+    <episode-num system="onscreen">S23 E2/20</episode-num>
   </programme>
   <programme start="20260204050000 +0000" stop="20260204060000 +0000" channel="Sjuan HD SE">
     <title lang="sv">Beverly Hills 90210</title>
@@ -8786,6 +8797,13 @@
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S11 E10/26</episode-num>
   </programme>
+  <programme start="20260210103000 +0000" stop="20260210110000 +0000" channel="Sjuan HD SE">
+    <title lang="sv">Hundräddaren</title>
+    <desc lang="sv">En hund blir tränad till att bli den perfekta hundambassadören till en kvinnas bed-and-breakfast.(n)</desc>
+    <date>2024</date>
+    <country lang="sv">USA</country>
+    <episode-num system="onscreen">S11 E11/26</episode-num>
+  </programme>
   <programme start="20260210110000 +0000" stop="20260210113000 +0000" channel="Sjuan HD SE">
     <title lang="sv">Vad blir det för mat</title>
     <desc lang="sv">Per åker ut och fiskar i Trosa skärgård. Han fångar abborre som sen hamnar på kvällens meny.. Allt tas tillvara, fiskrenset används till fonden till vitvinssåsen. Till dessert gör Per citronparfait med varm fruktsallad.(n)</desc>
@@ -8912,13 +8930,6 @@
     <date>2014</date>
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S1 E7/8</episode-num>
-  </programme>
-  <programme start="20260211040000 +0000" stop="20260211045500 +0000" channel="Sjuan HD SE">
-    <title lang="sv">Beverly Hills 90210</title>
-    <desc lang="sv">Skolstyrelsens nya regler väcker oro när det beslutas att elever som ertappas berusade på balen inte får ta examen.(n)</desc>
-    <date>1993</date>
-    <country lang="sv">USA</country>
-    <episode-num system="onscreen">S3 E27/30</episode-num>
   </programme>
   <programme start="20260204050000 +0000" stop="20260204060000 +0000" channel="TV8 FHD SE">
     <title lang="sv">Antiques roadtrip</title>
@@ -9904,13 +9915,6 @@
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S10 E2/10</episode-num>
   </programme>
-  <programme start="20260210081000 +0000" stop="20260210091500 +0000" channel="TV8 FHD SE">
-    <title lang="sv">En plats på landet</title>
-    <desc lang="sv">Denise Nurse får visa upp de magnifika Scottish Borders i all sin prakt för ett ungt par som vill göra en stor landsbygdsflykt.(n)</desc>
-    <date>2023</date>
-    <country lang="sv">GBR</country>
-    <episode-num system="onscreen">S31 E27/55</episode-num>
-  </programme>
   <programme start="20260210091500 +0000" stop="20260210102000 +0000" channel="TV8 FHD SE">
     <title lang="sv">Antiques roadtrip</title>
     <desc lang="sv">Det är dags att ta på solkräm när Raj och Irita beger sig till kusten i Lincolnshire. De hinner med dockteater och lär sig om paketresor.(n)</desc>
@@ -10034,6 +10038,13 @@
     <date>2023</date>
     <country lang="sv">GBR</country>
     <episode-num system="onscreen">S31 E27/55</episode-num>
+  </programme>
+  <programme start="20260211042000 +0000" stop="20260211045300 +0000" channel="TV8 FHD SE">
+    <title lang="sv">Idas fristelser</title>
+    <desc lang="sv">Ida visar några enkla recept som hon anser alla borde kunna; supergoda vetebullar och kanske världens bästa chokladkaka.(n)</desc>
+    <date>2016</date>
+    <country lang="sv">NOR</country>
+    <episode-num system="onscreen">S3 E5/40</episode-num>
   </programme>
   <programme start="20260204050000 +0000" stop="20260204054500 +0000" channel="Kanal 9 FHD SE">
     <title lang="sv">Wheeler dealers</title>
@@ -11483,7 +11494,7 @@
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S4 E3/24</episode-num>
   </programme>
-  <programme start="20260210210000 +0000" stop="20260210225500 +0000" channel="Kanal 9 FHD SE">
+  <programme start="20260210210000 +0000" stop="20260210225000 +0000" channel="Kanal 9 FHD SE">
     <title lang="sv">Familjen Addams</title>
     <desc lang="sv">Eftersom Gomez saknar sin sedan länge försvunne bror Fester har Morticia anordnat en seans för att försöka få honom tillbaka.. Med gemensamma krafter genomför familj och vänner seansen, som lyckas. Fester återvänder till det spöklika slottet.. Men snart börjar man misstänka att familjen kanske har blivit utsatt för en bedragare, för Fester beter sig inte riktigt som vanligt.(n)</desc>
     <credits>
@@ -11497,32 +11508,26 @@
     <date>1991</date>
     <country lang="sv">USA</country>
   </programme>
-  <programme start="20260210225500 +0000" stop="20260211000000 +0000" channel="Kanal 9 FHD SE">
+  <programme start="20260210225000 +0000" stop="20260210235500 +0000" channel="Kanal 9 FHD SE">
     <title lang="sv">Vägens hjältar</title>
     <desc lang="sv">En våldsam krock mellan två personbilar och en lastbil inträffar i Hammarbytunneln.. Benny åker på en allvarlig olycka där räddningstjänsten måste klippa upp taket för att få ut föraren. Lutten rycker ut när ett sällskap inte får av sin bil från färjan.(n)</desc>
     <date>2018</date>
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S4 E4/13</episode-num>
   </programme>
-  <programme start="20260211000000 +0000" stop="20260211003500 +0000" channel="Kanal 9 FHD SE">
+  <programme start="20260210235500 +0000" stop="20260211003500 +0000" channel="Kanal 9 FHD SE">
     <title lang="sv">Gränsbevakarna Australien</title>
     <date>2004</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S1 E5/24</episode-num>
   </programme>
-  <programme start="20260211003500 +0000" stop="20260211011000 +0000" channel="Kanal 9 FHD SE">
+  <programme start="20260211003500 +0000" stop="20260211010500 +0000" channel="Kanal 9 FHD SE">
     <title lang="sv">Gränsbevakarna Australien</title>
     <date>2004</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S1 E6/24</episode-num>
   </programme>
-  <programme start="20260211011000 +0000" stop="20260211014000 +0000" channel="Kanal 9 FHD SE">
-    <title lang="sv">Gränsbevakarna Australien</title>
-    <date>2004</date>
-    <country lang="sv">USA</country>
-    <episode-num system="onscreen">S1 E7/24</episode-num>
-  </programme>
-  <programme start="20260211014000 +0000" stop="20260211021000 +0000" channel="Kanal 9 FHD SE">
+  <programme start="20260211013500 +0000" stop="20260211021000 +0000" channel="Kanal 9 FHD SE">
     <title lang="sv">Gränsbevakarna Australien</title>
     <date>2004</date>
     <country lang="sv">USA</country>
@@ -11548,6 +11553,13 @@
     <date>2017</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S16 E4/20</episode-num>
+  </programme>
+  <programme start="20260211044500 +0000" stop="20260211045800 +0000" channel="Kanal 9 FHD SE">
+    <title lang="sv">Gärdsgårdsserien</title>
+    <desc lang="sv">Joel beger sig söderut och till division 7-laget IFK Bärnared där han träffat grisbonden Sven Isaksson som har sin ladugård precis vid planen.. När laget behöver förstärka truppen för att de är för få, får helt enkelt bonden Sven hoppa in och stötta upp laget.(n)</desc>
+    <date>2019</date>
+    <country lang="sv">SWE</country>
+    <episode-num system="onscreen">S1 E1/9</episode-num>
   </programme>
   <programme start="20260204050000 +0000" stop="20260204060000 +0000" channel="TV10 HD SE">
     <title lang="sv">Guldjägarna i Australien</title>
@@ -12594,6 +12606,7 @@
   </programme>
   <programme start="20260209200000 +0000" stop="20260209210000 +0000" channel="TV10 HD SE">
     <title lang="sv">Pawn stars</title>
+    <desc lang="sv">I en familjeägd pantbank i Las Vegas köper, säljer och värderar tre generationer av män sällsynta och ovanliga föremål – och blandar historia, prutande och humor i varje affär.(n)</desc>
     <date>2021</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S23 E1</episode-num>
@@ -12614,6 +12627,7 @@
   </programme>
   <programme start="20260209230000 +0000" stop="20260210000000 +0000" channel="TV10 HD SE">
     <title lang="sv">Pawn stars</title>
+    <desc lang="sv">I en familjeägd pantbank i Las Vegas köper, säljer och värderar tre generationer av män sällsynta och ovanliga föremål – och blandar historia, prutande och humor i varje affär.(n)</desc>
     <date>2021</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S23 E1</episode-num>
@@ -12652,6 +12666,13 @@
     <date>2022</date>
     <country lang="sv">CAN</country>
     <episode-num system="onscreen">S3 E5</episode-num>
+  </programme>
+  <programme start="20260210050000 +0000" stop="20260210060000 +0000" channel="TV10 HD SE">
+    <title lang="sv">Guldjägarna i Australien</title>
+    <desc lang="sv">Gold Gypsies gör en upptäckt som skulle kunna förbättra deras utsikter för säsongen.. Victoria Diggers slår i rött vilket tvingar Neville till sin gräns. Goldtimers får konfrontera guldtjuvar.(n)</desc>
+    <date>2020</date>
+    <country lang="sv">AUS</country>
+    <episode-num system="onscreen">S5 E4</episode-num>
   </programme>
   <programme start="20260210060000 +0000" stop="20260210070000 +0000" channel="TV10 HD SE">
     <title lang="sv">Guldjägarna i Australien</title>
@@ -12767,6 +12788,7 @@
   </programme>
   <programme start="20260210200000 +0000" stop="20260210210000 +0000" channel="TV10 HD SE">
     <title lang="sv">Pawn stars</title>
+    <desc lang="sv">I en familjeägd pantbank i Las Vegas köper, säljer och värderar tre generationer av män sällsynta och ovanliga föremål – och blandar historia, prutande och humor i varje affär.(n)</desc>
     <date>2021</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S23 E2</episode-num>
@@ -12794,6 +12816,7 @@
   </programme>
   <programme start="20260210230000 +0000" stop="20260211000000 +0000" channel="TV10 HD SE">
     <title lang="sv">Pawn stars</title>
+    <desc lang="sv">I en familjeägd pantbank i Las Vegas köper, säljer och värderar tre generationer av män sällsynta och ovanliga föremål – och blandar historia, prutande och humor i varje affär.(n)</desc>
     <date>2021</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S23 E2</episode-num>
@@ -12825,13 +12848,6 @@
     <date>2022</date>
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S5 E3/8</episode-num>
-  </programme>
-  <programme start="20260211040000 +0000" stop="20260211044700 +0000" channel="TV10 HD SE">
-    <title lang="sv">Tuffa timmerstockar</title>
-    <desc lang="sv">Med kampen om stockar som tär, fortsätter Kevin att fullfölja sina planer på att bygga Pipe Dream och en ny såg på sågverket.. Samtidigt blir det inget av Simons planer på en sportdag för skogshuggare.(n)</desc>
-    <date>2022</date>
-    <country lang="sv">CAN</country>
-    <episode-num system="onscreen">S3 E6</episode-num>
   </programme>
   <programme start="20260204050000 +0000" stop="20260204054500 +0000" channel="Kanal 11 HD SE">
     <title lang="sv">90 day fiance</title>
@@ -14025,7 +14041,7 @@
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S5 E8/10</episode-num>
   </programme>
-  <programme start="20260210044500 +0000" stop="20260210045800 +0000" channel="Kanal 11 HD SE">
+  <programme start="20260210044500 +0000" stop="20260210045500 +0000" channel="Kanal 11 HD SE">
     <title lang="sv">Parterapi</title>
     <desc lang="sv">Löneförhandling, semesterkassa och räkningar. Pengar kanske inte är allt, men en ständig källa till bråk.(n)</desc>
     <date>2019</date>
@@ -14082,6 +14098,12 @@
     <date>2016</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S3 E13/14</episode-num>
+  </programme>
+  <programme start="20260210101500 +0000" stop="20260210105000 +0000" channel="Kanal 11 HD SE">
+    <title lang="sv">First time flippers</title>
+    <date>2016</date>
+    <country lang="sv">USA</country>
+    <episode-num system="onscreen">S3 E14/14</episode-num>
   </programme>
   <programme start="20260210105000 +0000" stop="20260210125000 +0000" channel="Kanal 11 HD SE">
     <title lang="sv">Silent witness</title>
@@ -14197,26 +14219,26 @@
     <country lang="sv">GBR</country>
     <episode-num system="onscreen">S11 E2/10</episode-num>
   </programme>
-  <programme start="20260211014000 +0000" stop="20260211024500 +0000" channel="Kanal 11 HD SE">
+  <programme start="20260211014000 +0000" stop="20260211024000 +0000" channel="Kanal 11 HD SE">
     <title lang="sv">Evil lives here</title>
     <desc lang="sv">Misstänkta tecken leder till chockerande avslöjanden i dessa sanna berättelser om människor som upptäckte att de levde med en mördare.. Kommer de att bli insnärjda i ondskan?(n)</desc>
     <date>2020</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S7 E9/20</episode-num>
   </programme>
-  <programme start="20260211024500 +0000" stop="20260211035000 +0000" channel="Kanal 11 HD SE">
+  <programme start="20260211024000 +0000" stop="20260211034500 +0000" channel="Kanal 11 HD SE">
     <title lang="sv">The perfect murder</title>
     <date>2017</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S4 E3/10</episode-num>
   </programme>
-  <programme start="20260211035000 +0000" stop="20260211045000 +0000" channel="Kanal 11 HD SE">
+  <programme start="20260211034500 +0000" stop="20260211044500 +0000" channel="Kanal 11 HD SE">
     <title lang="sv">Nightmare next door</title>
     <date>2015</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S5 E9/10</episode-num>
   </programme>
-  <programme start="20260211045000 +0000" stop="20260211045800 +0000" channel="Kanal 11 HD SE">
+  <programme start="20260211044500 +0000" stop="20260211045500 +0000" channel="Kanal 11 HD SE">
     <title lang="sv">Parterapi</title>
     <desc lang="sv">Susanne berättar om Leifs misslyckade kärleksförklaring och Samuel har problem med Rainbows vidlyftiga sexliv.(n)</desc>
     <date>2019</date>
@@ -15024,7 +15046,7 @@
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S3 E12/14</episode-num>
   </programme>
-  <programme start="20260209155500 +0000" stop="20260209183000 +0000" channel="TV12 HD SE">
+  <programme start="20260209155500 +0000" stop="20260209183100 +0000" channel="TV12 HD SE">
     <title lang="sv">Vinter-OS 2026 Rodel: Singel åk 1-2 damer</title>
     <desc lang="sv">Cortina Sliding Centre. Rodel från Cortina Sliding Centre och damernas singeltävling. Med åk 1 och 2.(n)</desc>
     <credits>
@@ -15033,11 +15055,12 @@
     <date>2026</date>
     <country lang="sv">ITA</country>
   </programme>
-  <programme start="20260209183000 +0000" stop="20260209185000 +0000" channel="TV12 HD SE">
-    <title lang="sv">Nyheterna story: Charlie Kirk – mordet på en provokatör</title>
-    <desc lang="sv">Charlie Kirk blev känd för virala, konfrontativa debatter. Hans engagemang anses ha varit avgörande för Donald Trumps framgång bland unga i valet 2024.. Den 10 september sköts han ihjäl under ett av sina framträdanden.(n)</desc>
-    <date>2025</date>
-    <country lang="sv">SWE</country>
+  <programme start="20260209183100 +0000" stop="20260209185000 +0000" channel="TV12 HD SE">
+    <title lang="sv">Polisens biljakter</title>
+    <desc lang="sv">Kev och Chris får syn på en bilist så full att han inte klarar av att hålla bilen kvar på vägen.. En vanlig trafikkontroll får ett oväntat slut för Tom och Sophie gör ett riktigt nybörjarmisstag och får köpa bullar till hela avdelningen.(n)</desc>
+    <date>2019</date>
+    <country lang="sv">GBR</country>
+    <episode-num system="onscreen">S16 E12/15</episode-num>
   </programme>
   <programme start="20260209185000 +0000" stop="20260209200000 +0000" channel="TV12 HD SE">
     <title lang="sv">Världens farligaste vägar</title>
@@ -15192,13 +15215,6 @@
     <date>2026</date>
     <country lang="sv">ITA</country>
   </programme>
-  <programme start="20260210230100 +0000" stop="20260211000000 +0000" channel="TV12 HD SE">
-    <title lang="sv">Stockholmspolisen</title>
-    <desc lang="sv">En fjortonårig pojke blir omhändertagen av Niklas och hans kollegor i tunnelbanan. Ett överfallslarm har gått i en matbutik vid Skanstull.. En person har blivit nerslagen och Christoffer försöker hitta vittnen till händelsen.(n)</desc>
-    <date>2017</date>
-    <country lang="sv">SWE</country>
-    <episode-num system="onscreen">S1 E7/10</episode-num>
-  </programme>
   <programme start="20260211000000 +0000" stop="20260211010000 +0000" channel="TV12 HD SE">
     <title lang="sv">Elitstyrkans hemligheter – uppdrag Anderna</title>
     <desc lang="sv">De mentalt och fysiskt slitna rekryterna ska i hög hastighet hoppa från en gummibåt och därefter ta sig uppför en repstege till en helikopter.. Energinivån lär inte bli bättre när maten ransoneras ner till 300 kalorier per dag under de sista dagarna.(n)</desc>
@@ -15226,6 +15242,13 @@
     <date>2021</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S3 E13/14</episode-num>
+  </programme>
+  <programme start="20260211030000 +0000" stop="20260211035600 +0000" channel="TV12 HD SE">
+    <title lang="sv">The rookie</title>
+    <desc lang="sv">Nolan tar upp jakten på en snattare och skadar sig på kuppen. Åklagaren vill åtala den misstänkte för misshandel, men Nolan tycker annat.. Samtidigt går Lucy undercover och Lopez bröllopslokal invaderas av FBI.(n)</desc>
+    <date>2021</date>
+    <country lang="sv">USA</country>
+    <episode-num system="onscreen">S3 E14/14</episode-num>
   </programme>
   <programme start="20260211040000 +0000" stop="20260211050000 +0000" channel="TV12 HD SE">
     <title lang="sv">112 – på liv och död</title>
@@ -16035,7 +16058,7 @@
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S3 E12/14</episode-num>
   </programme>
-  <programme start="20260209155500 +0000" stop="20260209183000 +0000" channel="TV12 FHD SE">
+  <programme start="20260209155500 +0000" stop="20260209183100 +0000" channel="TV12 FHD SE">
     <title lang="sv">Vinter-OS 2026 Rodel: Singel åk 1-2 damer</title>
     <desc lang="sv">Cortina Sliding Centre. Rodel från Cortina Sliding Centre och damernas singeltävling. Med åk 1 och 2.(n)</desc>
     <credits>
@@ -16044,11 +16067,12 @@
     <date>2026</date>
     <country lang="sv">ITA</country>
   </programme>
-  <programme start="20260209183000 +0000" stop="20260209185000 +0000" channel="TV12 FHD SE">
-    <title lang="sv">Nyheterna story: Charlie Kirk – mordet på en provokatör</title>
-    <desc lang="sv">Charlie Kirk blev känd för virala, konfrontativa debatter. Hans engagemang anses ha varit avgörande för Donald Trumps framgång bland unga i valet 2024.. Den 10 september sköts han ihjäl under ett av sina framträdanden.(n)</desc>
-    <date>2025</date>
-    <country lang="sv">SWE</country>
+  <programme start="20260209183100 +0000" stop="20260209185000 +0000" channel="TV12 FHD SE">
+    <title lang="sv">Polisens biljakter</title>
+    <desc lang="sv">Kev och Chris får syn på en bilist så full att han inte klarar av att hålla bilen kvar på vägen.. En vanlig trafikkontroll får ett oväntat slut för Tom och Sophie gör ett riktigt nybörjarmisstag och får köpa bullar till hela avdelningen.(n)</desc>
+    <date>2019</date>
+    <country lang="sv">GBR</country>
+    <episode-num system="onscreen">S16 E12/15</episode-num>
   </programme>
   <programme start="20260209185000 +0000" stop="20260209200000 +0000" channel="TV12 FHD SE">
     <title lang="sv">Världens farligaste vägar</title>
@@ -16203,13 +16227,6 @@
     <date>2026</date>
     <country lang="sv">ITA</country>
   </programme>
-  <programme start="20260210230100 +0000" stop="20260211000000 +0000" channel="TV12 FHD SE">
-    <title lang="sv">Stockholmspolisen</title>
-    <desc lang="sv">En fjortonårig pojke blir omhändertagen av Niklas och hans kollegor i tunnelbanan. Ett överfallslarm har gått i en matbutik vid Skanstull.. En person har blivit nerslagen och Christoffer försöker hitta vittnen till händelsen.(n)</desc>
-    <date>2017</date>
-    <country lang="sv">SWE</country>
-    <episode-num system="onscreen">S1 E7/10</episode-num>
-  </programme>
   <programme start="20260211000000 +0000" stop="20260211010000 +0000" channel="TV12 FHD SE">
     <title lang="sv">Elitstyrkans hemligheter – uppdrag Anderna</title>
     <desc lang="sv">De mentalt och fysiskt slitna rekryterna ska i hög hastighet hoppa från en gummibåt och därefter ta sig uppför en repstege till en helikopter.. Energinivån lär inte bli bättre när maten ransoneras ner till 300 kalorier per dag under de sista dagarna.(n)</desc>
@@ -16237,6 +16254,13 @@
     <date>2021</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S3 E13/14</episode-num>
+  </programme>
+  <programme start="20260211030000 +0000" stop="20260211035600 +0000" channel="TV12 FHD SE">
+    <title lang="sv">The rookie</title>
+    <desc lang="sv">Nolan tar upp jakten på en snattare och skadar sig på kuppen. Åklagaren vill åtala den misstänkte för misshandel, men Nolan tycker annat.. Samtidigt går Lucy undercover och Lopez bröllopslokal invaderas av FBI.(n)</desc>
+    <date>2021</date>
+    <country lang="sv">USA</country>
+    <episode-num system="onscreen">S3 E14/14</episode-num>
   </programme>
   <programme start="20260211040000 +0000" stop="20260211050000 +0000" channel="TV12 FHD SE">
     <title lang="sv">112 – på liv och död</title>
@@ -19550,14 +19574,14 @@
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S4 E3/28</episode-num>
   </programme>
-  <programme start="20260206190000 +0000" stop="20260206200100 +0000" channel="TV4 Guld SE">
+  <programme start="20260206190000 +0000" stop="20260206200000 +0000" channel="TV4 Guld SE">
     <title lang="sv">Dr Quinn</title>
     <desc lang="sv">Brian tar med sig Pup på en fisketur men då går en vildsint grävling till attack.(n)</desc>
     <date>1995</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S4 E4/28</episode-num>
   </programme>
-  <programme start="20260206200100 +0000" stop="20260206210000 +0000" channel="TV4 Guld SE">
+  <programme start="20260206200000 +0000" stop="20260206210000 +0000" channel="TV4 Guld SE">
     <title lang="sv">Blue bloods</title>
     <desc lang="sv">Danny engagerar sig när Sean blir rånad på sitt universitetsområde.. Erin blir misstänksam mot en överarbetad advokat som hon inte tror agerar i sin klients bästa intresse.(n)</desc>
     <date>2024</date>
@@ -19599,7 +19623,7 @@
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S2 E1/28</episode-num>
   </programme>
-  <programme start="20260207015000 +0000" stop="20260207033800 +0000" channel="TV4 Guld SE">
+  <programme start="20260207015000 +0000" stop="20260207035900 +0000" channel="TV4 Guld SE">
     <title lang="sv">Hej du glada sommar!!!</title>
     <desc lang="sv">Bröderna Valle och Bror Väster bor i skärgården och försörjer sig på fiske. Valle är gift med Lina och Bror är ungkarl.. En dag får Lina veta att hon ärvt 50.000 kronor från en avlägsen släkting och hon och Valle reser till Stockholm för att kvittera ut arvet.. Då visar det sig att de även har ärvt en våning som de flyttar in i.(n)</desc>
     <credits>
@@ -20239,6 +20263,13 @@
     <country lang="sv">SWE</country>
     <episode-num system="onscreen">S1 E4/8</episode-num>
   </programme>
+  <programme start="20260210140000 +0000" stop="20260210150000 +0000" channel="TV4 Guld SE">
+    <title lang="sv">Dr Quinn</title>
+    <desc lang="sv">Mike och Sully vet inte vad de ska ta sig till när en sörjande Matthew hänger sig åt självdestruktivt beteende efter att hans fästmö avlidit.(n)</desc>
+    <date>1995</date>
+    <country lang="sv">USA</country>
+    <episode-num system="onscreen">S4 E11/28</episode-num>
+  </programme>
   <programme start="20260210150000 +0000" stop="20260210160000 +0000" channel="TV4 Guld SE">
     <title lang="sv">Dr Quinn</title>
     <desc lang="sv">Mike får en oväntad julklapp från sin mamma, med kaotiska följder.(n)</desc>
@@ -20294,12 +20325,6 @@
     <date>2023</date>
     <country lang="sv">TUR</country>
     <episode-num system="onscreen">S2 E19/125</episode-num>
-  </programme>
-  <programme start="20260210230000 +0000" stop="20260211000500 +0000" channel="TV4 Guld SE">
-    <title lang="sv">Golden boy</title>
-    <date>2023</date>
-    <country lang="sv">TUR</country>
-    <episode-num system="onscreen">S2 E20/125</episode-num>
   </programme>
   <programme start="20260211000500 +0000" stop="20260211010500 +0000" channel="TV4 Guld SE">
     <title lang="sv">Beverly Hills 90210</title>
@@ -23584,6 +23609,13 @@
     <country lang="sv">CAN</country>
     <episode-num system="onscreen">S19 E8</episode-num>
   </programme>
+  <programme start="20260210052400 +0000" stop="20260210054800 +0000" channel="Discovery Science FHD SE">
+    <title lang="sv">How it's made</title>
+    <desc lang="sv">I det här programmet får du lära dig mer om hur våra mest använda vardagsobjekt kommer till.. Hur tillverkas egentligen matserviser, luftbränsletankar och frostade flingor?(n)</desc>
+    <date>2013</date>
+    <country lang="sv">CAN</country>
+    <episode-num system="onscreen">S19 E9</episode-num>
+  </programme>
   <programme start="20260210054800 +0000" stop="20260210061200 +0000" channel="Discovery Science FHD SE">
     <title lang="sv">How it's made</title>
     <desc lang="sv">I det här programmet får du lära dig mer om hur våra mest använda vardagsobjekt kommer till.. Hur tillverkas egentligen lera, urkärnade sviskon, sporrar och däck av polyuretan?(n)</desc>
@@ -23818,12 +23850,6 @@
     <desc lang="sv">Nascalinjerna består av mystiska geoglyfer som karvades in i Atacamaöknen för över tusen år sedan. Hur, och varför, kom de till?(n)</desc>
     <date>2019</date>
     <episode-num system="onscreen">S4 E1</episode-num>
-  </programme>
-  <programme start="20260211041200 +0000" stop="20260211050000 +0000" channel="Discovery Science FHD SE">
-    <title lang="sv">Blowing up history</title>
-    <desc lang="sv">Alcatraz är ett av världens mest kända fängelser.. Experter undersöker dess tekniska hemligheter och tar reda på varför det var så svårt att fly ifrån fängelset.(n)</desc>
-    <date>2019</date>
-    <episode-num system="onscreen">S4 E2</episode-num>
   </programme>
   <programme start="20260204050000 +0000" stop="20260204051000 +0000" channel="Discovery Channel FHD SE">
     <title lang="sv">Bluey</title>
@@ -26385,6 +26411,11 @@
     <desc lang="sv">Familjen är på sin årliga semester-resa hos farfar i England.. Grabbarna får höra om den Svarte Riddaren och bestämmer sig för att arrangera sin egen medeltida turnering.. Grabbarna bygger robotar som dom kallar Phineas och Ferbots, men dom förlorar snart kontrollen över dom. (S1 Ep10).(n)</desc>
     <episode-num system="onscreen">S1 E10</episode-num>
   </programme>
+  <programme start="20260211022000 +0000" stop="20260211024000 +0000" channel="Discovery Channel FHD SE">
+    <title lang="sv">Phineas och Ferb</title>
+    <desc lang="sv">Pojkarna krymper en ubåt och hamnar i Candaces mage!(n)</desc>
+    <episode-num system="onscreen">S1 E11</episode-num>
+  </programme>
   <programme start="20260211024000 +0000" stop="20260211030500 +0000" channel="Discovery Channel FHD SE">
     <title lang="sv">Phineas och Ferb</title>
     <desc lang="sv">Det ska bli en modeshow i köpcentret, så grabbarna blir mode-designers, och får hjälp av Isabella och tjejerna, som vill få sina sy-utmärkelser.. Isabella har opererat bort mandlarna och får äta massor av glass, så grabbarna ger henne den största glass-skålen någonsin. (S1 Ep12).(n)</desc>
@@ -26414,11 +26445,6 @@
     <title lang="sv">Familjen Green i Storstan</title>
     <desc lang="sv">Det är lätt att vara "grön". Tilly mäklar fred.(n)</desc>
     <episode-num system="onscreen">S3 E65</episode-num>
-  </programme>
-  <programme start="20260211045000 +0000" stop="20260211050000 +0000" channel="Discovery Channel FHD SE">
-    <title lang="sv">Familjen Green i Storstan</title>
-    <desc lang="sv">Utflykt och trafik.(n)</desc>
-    <episode-num system="onscreen">S1 E9</episode-num>
   </programme>
   <programme start="20260204040000 +0000" stop="20260204050000 +0000" channel="Investigation Discovery HD SE">
     <title lang="sv">Betrayed</title>
@@ -28465,6 +28491,12 @@
     <date>2020</date>
     <episode-num system="onscreen">S2 E5</episode-num>
   </programme>
+  <programme start="20260210180000 +0000" stop="20260210190000 +0000" channel="Investigation Discovery SE">
+    <title lang="sv">Til death do us part</title>
+    <desc lang="sv">Cynthia Smith och David Muellers lyckliga äktenskap skakas av en tragisk sjukdom. När David dör avslöjar detektiverna en lömsk komplott.(n)</desc>
+    <date>2020</date>
+    <episode-num system="onscreen">S2 E6</episode-num>
+  </programme>
   <programme start="20260210190000 +0000" stop="20260210200000 +0000" channel="Investigation Discovery SE">
     <title lang="sv">Murder calls</title>
     <desc lang="sv">En man ringer ett larmsamtal och flämtar att han har råkat skjuta sig själv.. När det hörs ett andra skott står det klart att det inte var någon olyckshändelse.(n)</desc>
@@ -28503,12 +28535,6 @@
     <date>2018</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S1 E4/6</episode-num>
-  </programme>
-  <programme start="20260211010000 +0000" stop="20260211020000 +0000" channel="Investigation Discovery SE">
-    <title lang="sv">Murder calls</title>
-    <desc lang="sv">En man ringer ett larmsamtal och flämtar att han har råkat skjuta sig själv.. När det hörs ett andra skott står det klart att det inte var någon olyckshändelse.(n)</desc>
-    <date>2016</date>
-    <episode-num system="onscreen">S1 E1</episode-num>
   </programme>
   <programme start="20260211020000 +0000" stop="20260211030000 +0000" channel="Investigation Discovery SE">
     <title lang="sv">Til death do us part</title>
@@ -29585,12 +29611,6 @@
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S2 E11/13</episode-num>
   </programme>
-  <programme start="20260210073000 +0000" stop="20260210082500 +0000" channel="Animal Planet FHD SE">
-    <title lang="sv">Dr Jeff: Rocky Mountain vet</title>
-    <desc lang="sv">Hunden Nalla behöver akut vård efter att ha blivit skjuten under ett inbrott.. Och så följer vi med Dr Jeff och Hector till ett naturreservat i Colorado för att behandla vargar.(n)</desc>
-    <date>2018</date>
-    <episode-num system="onscreen">S4 E17</episode-num>
-  </programme>
   <programme start="20260210082500 +0000" stop="20260210092000 +0000" channel="Animal Planet FHD SE">
     <title lang="sv">Tanked</title>
     <desc lang="sv">Basebollegenden Pete Rose vill förvandla en känd idrottsarena till ett akvarium. Senare bygger Wayde och Heather en enorm vattentank i Horry County.(n)</desc>
@@ -29693,6 +29713,12 @@
     <title lang="sv">Extinct or alive</title>
     <desc lang="sv">Forrest åker till Everglades i Florida för att leta efter den svarta pantern, som aldrig tidigare synts i USA.. Fynd i området tyder på att det kan handla om mer än ryktesspridning.(n)</desc>
     <date>2018</date>
+    <episode-num system="onscreen">S1 E3</episode-num>
+  </programme>
+  <programme start="20260210234500 +0000" stop="20260211003000 +0000" channel="Animal Planet FHD SE">
+    <title lang="sv">Intruders</title>
+    <desc lang="sv">Vi besöker Detroit där en granne förvandlar en drömlägenhet till en mardröm.. Och i Kalifornien försöker en mamma till en son med särskilda behov, skydda denne från giftiga ormar.(n)</desc>
+    <date>2017</date>
     <episode-num system="onscreen">S1 E3</episode-num>
   </programme>
   <programme start="20260211003000 +0000" stop="20260211011500 +0000" channel="Animal Planet FHD SE">
@@ -30733,6 +30759,13 @@
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S3 E27</episode-num>
   </programme>
+  <programme start="20260210050000 +0000" stop="20260210060000 +0000" channel="National Geographic FHD SE">
+    <title lang="sv">Sekunder från katastrof</title>
+    <desc lang="sv">År 1981 lossnade en gångbro vid hotell Hyatt från sina fästen och ramlade rakt ner över en folkmassa. 114 personer omkom. Vad orsakade olyckan?(n)</desc>
+    <date>2006</date>
+    <country lang="sv">GBR</country>
+    <episode-num system="onscreen">S3 E1/16</episode-num>
+  </programme>
   <programme start="20260210060000 +0000" stop="20260210070000 +0000" channel="National Geographic FHD SE">
     <title lang="sv">Engineering Europe</title>
     <desc lang="sv">Vi ger oss ut på ett äventyr för att upptäcka de mest episka ingenjörsbedrifterna i Europas nordligaste region.. Från Islands mäktiga lavabarriärer och Finlands rekordhöga vertikala fabrik till världens största trästad i Stockholm och en svensk färja som flyger över vattnet – detta är Nordeuropas mest fantastiska underverk.(n)</desc>
@@ -30886,13 +30919,6 @@
     <date>2021</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">S3 E27</episode-num>
-  </programme>
-  <programme start="20260211040000 +0000" stop="20260211050000 +0000" channel="National Geographic FHD SE">
-    <title lang="sv">To catch a smuggler</title>
-    <desc lang="sv">Vid Kaliforniens gräns genomsöker CBP en mystisk, skottsäker lastbil och stoppar en SUV lastad med dolt metamfetamin värt mer än 200 000 dollar.. CBP i Atlanta jagar smugglade pengar och hittar mer än 100 000 dollar i förfalskade hundradollarsedlar. Och AMO utför Operation Röd Måne i skyarna och vattnen som omger Puerto Rico.(n)</desc>
-    <date>2022</date>
-    <country lang="sv">USA</country>
-    <episode-num system="onscreen">S5 E1/8</episode-num>
   </programme>
   <programme start="20260204050000 +0000" stop="20260204055500 +0000" channel="History FHD SE">
     <title lang="sv">The curse of Oak Island</title>
@@ -35526,7 +35552,7 @@
   </programme>
   <programme start="20260206073000 +0000" stop="20260206080000 +0000" channel="Al Jazeera FHD SE">
     <title lang="sv">Bangladesh - A Democratic Test</title>
-    <desc lang="sv">As Bangladesh nears its first election since Sheikh Hasina's overthrow, Sreenivasan Jain interviews key figures on what's at stake.(n)</desc>
+    <desc lang="sv">Sreenivasan Jain challenges BNP secretary Mirza Fakhrul on the whether the party and its leader really represent change after years of political wilderness.(n)</desc>
     <date>2026</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">E4</episode-num>
@@ -35591,7 +35617,7 @@
   </programme>
   <programme start="20260206143000 +0000" stop="20260206150000 +0000" channel="Al Jazeera FHD SE">
     <title lang="sv">The Stream</title>
-    <desc lang="sv">Powered by social media, The Stream brings fresh perspectives and new voices, beyond the headlines.(n)</desc>
+    <desc lang="sv">Today on The Stream: Handmade crafts are disappearing under mass production. What is lost when everything is made fast, cheap, and at scale?(n)</desc>
     <date>2026</date>
     <country lang="sv">QAT</country>
     <episode-num system="onscreen">E7</episode-num>
@@ -35695,7 +35721,7 @@
   </programme>
   <programme start="20260207023000 +0000" stop="20260207030000 +0000" channel="Al Jazeera FHD SE">
     <title lang="sv">Bangladesh - A Democratic Test</title>
-    <desc lang="sv">As Bangladesh nears its first election since Sheikh Hasina's overthrow, Sreenivasan Jain interviews key figures on what's at stake.(n)</desc>
+    <desc lang="sv">Sreenivasan Jain challenges BNP secretary Mirza Fakhrul on the whether the party and its leader really represent change after years of political wilderness.(n)</desc>
     <date>2026</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">E4</episode-num>
@@ -35767,7 +35793,7 @@
   </programme>
   <programme start="20260207083000 +0000" stop="20260207090000 +0000" channel="Al Jazeera FHD SE">
     <title lang="sv">The Stream</title>
-    <desc lang="sv">Powered by social media, The Stream brings fresh perspectives and new voices, beyond the headlines.(n)</desc>
+    <desc lang="sv">Today on The Stream: Handmade crafts are disappearing under mass production. What is lost when everything is made fast, cheap, and at scale?(n)</desc>
     <date>2026</date>
     <country lang="sv">QAT</country>
     <episode-num system="onscreen">E7</episode-num>
@@ -35837,7 +35863,7 @@
   </programme>
   <programme start="20260207163000 +0000" stop="20260207170000 +0000" channel="Al Jazeera FHD SE">
     <title lang="sv">Bangladesh - A Democratic Test</title>
-    <desc lang="sv">As Bangladesh nears its first election since Sheikh Hasina's overthrow, Sreenivasan Jain interviews key figures on what's at stake.(n)</desc>
+    <desc lang="sv">Sreenivasan Jain challenges BNP secretary Mirza Fakhrul on the whether the party and its leader really represent change after years of political wilderness.(n)</desc>
     <date>2026</date>
     <country lang="sv">USA</country>
     <episode-num system="onscreen">E4</episode-num>
@@ -35925,7 +35951,7 @@
   </programme>
   <programme start="20260208023000 +0000" stop="20260208030000 +0000" channel="Al Jazeera FHD SE">
     <title lang="sv">The Stream</title>
-    <desc lang="sv">Powered by social media, The Stream brings fresh perspectives and new voices, beyond the headlines.(n)</desc>
+    <desc lang="sv">Today on The Stream: Handmade crafts are disappearing under mass production. What is lost when everything is made fast, cheap, and at scale?(n)</desc>
     <date>2026</date>
     <country lang="sv">QAT</country>
     <episode-num system="onscreen">E7</episode-num>
@@ -36542,6 +36568,11 @@
     <date>2026</date>
     <country lang="sv">QAT</country>
   </programme>
+  <programme start="20260210180000 +0000" stop="20260210190000 +0000" channel="Al Jazeera FHD SE">
+    <title lang="sv">Newshour</title>
+    <desc lang="sv">Up-to-date news and analysis from around the world.(n)</desc>
+    <country lang="sv">QAT</country>
+  </programme>
   <programme start="20260210190000 +0000" stop="20260210193000 +0000" channel="Al Jazeera FHD SE">
     <title lang="sv">News Live</title>
     <desc lang="sv">Up-to-date news and analysis from around the world.(n)</desc>
@@ -36622,12 +36653,6 @@
     <title lang="sv">Witness</title>
     <desc lang="sv">Inspirational and provocative stories providing a fresh and informative insight into the world's key events as they impact on the lives of ordinary people.(n)</desc>
     <date>2025</date>
-  </programme>
-  <programme start="20260211040000 +0000" stop="20260211043000 +0000" channel="Al Jazeera FHD SE">
-    <title lang="sv">News Live</title>
-    <desc lang="sv">Up-to-date news and analysis from around the world.(n)</desc>
-    <date>2026</date>
-    <country lang="sv">QAT</country>
   </programme>
   <programme start="20260211043000 +0000" stop="20260211050000 +0000" channel="Al Jazeera FHD SE">
     <title lang="sv">UpFront</title>
@@ -36728,98 +36753,112 @@
     <title lang="sv">Ishockey Vinter-OS USA – Tjeckien</title>
   </programme>
   <programme start="20260206050000 +0000" stop="20260206071000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Ishockey</title>
+    <title lang="sv">Ishockey Milano Cortina 2026 Sverige – Tyskland</title>
   </programme>
   <programme start="20260206071000 +0000" stop="20260206084000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Ishockey</title>
+    <title lang="sv">Ishockey Milano Cortina 2026 Finland – Kanada</title>
   </programme>
   <programme start="20260206084000 +0000" stop="20260206135500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Konståkning</title>
+    <title lang="sv">Konståkning Milano Cortina 2026 Lag</title>
   </programme>
   <programme start="20260206135500 +0000" stop="20260206161000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Ishockey</title>
+    <title lang="sv">Ishockey Milano Cortina 2026 Tjeckien – Schweiz</title>
   </programme>
   <programme start="20260206161000 +0000" stop="20260206180000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Curling</title>
+    <title lang="sv">Curling Milano Cortina 2026 Sverige – Storbritannien</title>
   </programme>
   <programme start="20260206180000 +0000" stop="20260206190000 +0000" channel="Eurosport 1 FHD SE">
     <title lang="sv">The Power of the Olympics</title>
     <desc lang="sv">All sports Vinter-OS The Power of the Olympics.(n)</desc>
   </programme>
   <programme start="20260206190000 +0000" stop="20260206213000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Sport</title>
+    <title lang="sv">Vinter-OS: Milano Cortina 2026</title>
   </programme>
   <programme start="20260206213000 +0000" stop="20260206233000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Konståkning</title>
+    <title lang="sv">Konståkning Milano Cortina 2026 Lag</title>
   </programme>
   <programme start="20260206233000 +0000" stop="20260207013000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Ishockey</title>
+    <title lang="sv">Ishockey Milano Cortina 2026 Tjeckien – Schweiz</title>
   </programme>
   <programme start="20260207013000 +0000" stop="20260207032000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Curling</title>
+    <title lang="sv">Curling Milano Cortina 2026 Sverige – Storbritannien</title>
   </programme>
   <programme start="20260207032000 +0000" stop="20260207045000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Milano Cortina Vinter-OS 2026</title>
+    <title lang="sv">Vinter-OS: Milano Cortina 2026</title>
   </programme>
   <programme start="20260207050000 +0000" stop="20260207062500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Snowboard</title>
+    <title lang="sv">Snowboard Milano Cortina 2026 Big Air</title>
   </programme>
   <programme start="20260207062500 +0000" stop="20260207075500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Milano Cortina Vinter-OS 2026</title>
+    <title lang="sv">Vinter-OS: Milano Cortina 2026</title>
   </programme>
   <programme start="20260207075500 +0000" stop="20260207085500 +0000" channel="Eurosport 1 FHD SE">
     <title lang="sv">The Power of the Olympics</title>
-    <desc lang="sv">The Power of the Olympics.(n)</desc>
+    <desc lang="sv">All sports Vinter-OS The Power of the Olympics.(n)</desc>
   </programme>
   <programme start="20260207085500 +0000" stop="20260207092500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Curling Vinter-OS Storbritannien – Kanada</title>
+    <title lang="sv">Curling Milano Cortina 2026 Storbritannien – Kanada</title>
   </programme>
   <programme start="20260207092500 +0000" stop="20260207100000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Freestyle Slopestyle</title>
+    <title lang="sv">Freestyle Milano Cortina 2026 Kval Slopestyle</title>
   </programme>
   <programme start="20260207100000 +0000" stop="20260207114500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Alpint Herrar Störtlopp</title>
+    <title lang="sv">Alpint Milano Cortina 2026 Störtlopp</title>
   </programme>
   <programme start="20260207114500 +0000" stop="20260207132500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Längdåkning Vinter-OS Milano Cortina 2026 Damer Skiathlon</title>
+    <title lang="sv">Längdåkning Milano Cortina 2026 Skiathlon</title>
   </programme>
-  <programme start="20260207132500 +0000" stop="20260207163000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Ishockey Vinter-OS Sverige – Italien</title>
+  <programme start="20260207132500 +0000" stop="20260207150500 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Ishockey Milano Cortina 2026 Sverige – Italien</title>
+  </programme>
+  <programme start="20260207150500 +0000" stop="20260207163000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Skridsko Milano Cortina 2026 3000m</title>
   </programme>
   <programme start="20260207163000 +0000" stop="20260207170000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Sport</title>
-    <desc lang="sv">Magasin.(n)</desc>
+    <title lang="sv">A day at the olympics all sports Vinter-OS</title>
+    <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
   </programme>
   <programme start="20260207170000 +0000" stop="20260207194500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">- Damer HS125</title>
+    <title lang="sv">Backhoppning Milano Cortina 2026 HS125</title>
   </programme>
   <programme start="20260207194500 +0000" stop="20260207200500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Konståkning Vinter-OS Lag</title>
+    <title lang="sv">Konståkning Milano Cortina 2026 Lag</title>
   </programme>
   <programme start="20260207200500 +0000" stop="20260207210000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Ishockey Vinter-OS Schweiz – Kanada</title>
+    <title lang="sv">Ishockey Milano Cortina 2026 Schweiz – Kanada</title>
   </programme>
   <programme start="20260207210000 +0000" stop="20260207215500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Konståkning Vinter-OS Lag</title>
+    <title lang="sv">Konståkning Milano Cortina 2026 Lag</title>
   </programme>
-  <programme start="20260207215500 +0000" stop="20260207223000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Ishockey Vinter-OS Schweiz – Kanada</title>
+  <programme start="20260207215500 +0000" stop="20260207220500 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Ishockey Milano Cortina 2026 Schweiz – Kanada</title>
+  </programme>
+  <programme start="20260207220500 +0000" stop="20260207223000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Längdåkning Milano Cortina 2026 Skiathlon</title>
   </programme>
   <programme start="20260207223000 +0000" stop="20260207231000 +0000" channel="Eurosport 1 FHD SE">
     <title lang="sv">A day at the olympics all sports Vinter-OS</title>
     <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
   </programme>
-  <programme start="20260207231000 +0000" stop="20260208011000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Alpint Herrar Störtlopp</title>
+  <programme start="20260207233000 +0000" stop="20260208000000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">A day at the olympics all sports Vinter-OS</title>
+    <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
+  </programme>
+  <programme start="20260208000000 +0000" stop="20260208011000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Alpint Milano Cortina 2026 Störtlopp</title>
   </programme>
   <programme start="20260208011000 +0000" stop="20260208014000 +0000" channel="Eurosport 1 FHD SE">
     <title lang="sv">Längdåkning Vinter-OS Damer Skiathlon</title>
   </programme>
-  <programme start="20260208014000 +0000" stop="20260208034000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Freestyle Slopestyle</title>
+  <programme start="20260208014000 +0000" stop="20260208030000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Freestyle Milano Cortina 2026 Kval Slopestyle</title>
   </programme>
-  <programme start="20260208034000 +0000" stop="20260208050000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Skridsko Vinter-OS</title>
+  <programme start="20260208030000 +0000" stop="20260208033000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">A day at the olympics all sports Vinter-OS</title>
+    <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
+  </programme>
+  <programme start="20260208033000 +0000" stop="20260208041000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Skridsko Milano Cortina 2026 3000m</title>
   </programme>
   <programme start="20260208050000 +0000" stop="20260208065000 +0000" channel="Eurosport 1 FHD SE">
     <title lang="sv">Alpint Herrar Störtlopp</title>
@@ -36855,104 +36894,133 @@
   <programme start="20260208214500 +0000" stop="20260208223000 +0000" channel="Eurosport 1 FHD SE">
     <title lang="sv">Ishockey Vinter-OS Tjeckien – Finland</title>
   </programme>
-  <programme start="20260208223000 +0000" stop="20260208231000 +0000" channel="Eurosport 1 FHD SE">
+  <programme start="20260208223000 +0000" stop="20260208224000 +0000" channel="Eurosport 1 FHD SE">
     <title lang="sv">A day at the olympics all sports Vinter-OS</title>
     <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
   </programme>
-  <programme start="20260208231000 +0000" stop="20260209011000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Snowboard Vinter-OS Parallellstorslalom</title>
+  <programme start="20260208224000 +0000" stop="20260208233000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Skidskytte Milano Cortina 2026 Stafett</title>
   </programme>
-  <programme start="20260209011000 +0000" stop="20260209031000 +0000" channel="Eurosport 1 FHD SE">
+  <programme start="20260208233000 +0000" stop="20260209000000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">A day at the olympics all sports Vinter-OS</title>
+    <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
+  </programme>
+  <programme start="20260209000000 +0000" stop="20260209011000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Snowboard Milano Cortina 2026 Parallellstorslalom</title>
+  </programme>
+  <programme start="20260209011000 +0000" stop="20260209020000 +0000" channel="Eurosport 1 FHD SE">
     <title lang="sv">Alpint Damer Störtlopp</title>
   </programme>
-  <programme start="20260209050000 +0000" stop="20260209061500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Rodel</title>
+  <programme start="20260209020000 +0000" stop="20260209033000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Alpint Milano Cortina 2026 Störtlopp</title>
+  </programme>
+  <programme start="20260209033000 +0000" stop="20260209040000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">A day at the olympics all sports Vinter-OS</title>
+    <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
+  </programme>
+  <programme start="20260209040000 +0000" stop="20260209050000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Skridsko Milano Cortina 2026 5000m</title>
+  </programme>
+  <programme start="20260209050000 +0000" stop="20260209052000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Rodel Milano Cortina 2026 4:e åket Singel</title>
     <desc lang="sv">Milano Cortina.(n)</desc>
   </programme>
-  <programme start="20260209061500 +0000" stop="20260209081500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Konståkning</title>
+  <programme start="20260209052000 +0000" stop="20260209061500 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">A day at the olympics all sports Vinter-OS</title>
+    <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
+  </programme>
+  <programme start="20260209061500 +0000" stop="20260209080000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Konståkning Milano Cortina 2026 Lag</title>
   </programme>
   <programme start="20260209081500 +0000" stop="20260209085500 +0000" channel="Eurosport 1 FHD SE">
     <title lang="sv">A day at the olympics all sports Vinter-OS</title>
     <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
   </programme>
   <programme start="20260209085500 +0000" stop="20260209111500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Alpint</title>
+    <title lang="sv">Alpint Milano Cortina 2026 Störtlopp, kombinerat</title>
   </programme>
   <programme start="20260209111500 +0000" stop="20260209130000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Freestyle</title>
+    <title lang="sv">Freestyle Milano Cortina 2026 Final Slopestyle</title>
   </programme>
   <programme start="20260209130000 +0000" stop="20260209142500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Alpint</title>
+    <title lang="sv">Alpint Milano Cortina 2026 Slalom, kombinerat</title>
   </programme>
   <programme start="20260209142500 +0000" stop="20260209152500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Konståkning</title>
+    <title lang="sv">Konståkning Milano Cortina 2026 Lag</title>
   </programme>
   <programme start="20260209152500 +0000" stop="20260209161500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Ishockey</title>
+    <title lang="sv">Ishockey Milano Cortina 2026 Tyskland – Frankrike</title>
   </programme>
   <programme start="20260209161500 +0000" stop="20260209165000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Skridsko</title>
+    <title lang="sv">Skridsko Milano Cortina 2026 1000m</title>
   </programme>
   <programme start="20260209165000 +0000" stop="20260209190500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Curling</title>
+    <title lang="sv">Curling Milano Cortina 2026</title>
   </programme>
   <programme start="20260209190500 +0000" stop="20260209195500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Backhoppning</title>
+    <title lang="sv">Backhoppning Milano Cortina 2026 HS125</title>
   </programme>
   <programme start="20260209195500 +0000" stop="20260209215500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Konståkning</title>
+    <title lang="sv">Konståkning Milano Cortina 2026 Kortprogram Isdans</title>
   </programme>
   <programme start="20260209215500 +0000" stop="20260209223000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Ishockey</title>
+    <title lang="sv">Ishockey Milano Cortina 2026 Kanada – Tjeckien</title>
   </programme>
   <programme start="20260209223000 +0000" stop="20260209231000 +0000" channel="Eurosport 1 FHD SE">
     <title lang="sv">A day at the olympics all sports Vinter-OS</title>
     <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
   </programme>
-  <programme start="20260209231000 +0000" stop="20260210011000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Alpint</title>
+  <programme start="20260209231000 +0000" stop="20260210010500 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Alpint Milano Cortina 2026 Störtlopp, kombinerat</title>
   </programme>
-  <programme start="20260210011000 +0000" stop="20260210025500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Freestyle</title>
+  <programme start="20260210010500 +0000" stop="20260210011000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">A day at the olympics all sports Vinter-OS</title>
+    <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
+  </programme>
+  <programme start="20260210011000 +0000" stop="20260210022500 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Freestyle Milano Cortina 2026 Final Slopestyle</title>
+  </programme>
+  <programme start="20260210022500 +0000" stop="20260210025500 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">A day at the olympics all sports Vinter-OS</title>
+    <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
   </programme>
   <programme start="20260210025500 +0000" stop="20260210042000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Alpint</title>
+    <title lang="sv">Alpint Milano Cortina 2026 Slalom, kombinerat</title>
   </programme>
   <programme start="20260210042000 +0000" stop="20260210045000 +0000" channel="Eurosport 1 FHD SE">
     <title lang="sv">Ishockey</title>
   </programme>
-  <programme start="20260210050000 +0000" stop="20260210052000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Backhoppning</title>
-  </programme>
-  <programme start="20260210052000 +0000" stop="20260210072500 +0000" channel="Eurosport 1 FHD SE">
+  <programme start="20260210050000 +0000" stop="20260210065500 +0000" channel="Eurosport 1 FHD SE">
     <title lang="sv">A day at the olympics all sports Vinter-OS</title>
     <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
+  </programme>
+  <programme start="20260210065500 +0000" stop="20260210072500 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Backhoppning Milano Cortina 2026 HS125</title>
   </programme>
   <programme start="20260210072500 +0000" stop="20260210080000 +0000" channel="Eurosport 1 FHD SE">
     <title lang="sv">A day at the olympics all sports Vinter-OS</title>
     <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
   </programme>
   <programme start="20260210080000 +0000" stop="20260210100000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Längdåkning</title>
+    <title lang="sv">Längdåkning Milano Cortina 2026 Kval SPRINT C</title>
   </programme>
   <programme start="20260210100000 +0000" stop="20260210103000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Alpint</title>
+    <title lang="sv">Alpint Milano Cortina 2026 Störtlopp, kombinerat</title>
   </programme>
   <programme start="20260210103000 +0000" stop="20260210123000 +0000" channel="Eurosport 1 FHD SE">
     <title lang="sv">Längdåkning Vinter-OS Milano Cortina 2026 Herrar och damer SPRINT C</title>
   </programme>
   <programme start="20260210123000 +0000" stop="20260210143000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Skidskytte</title>
+    <title lang="sv">Skidskytte Milano Cortina 2026 Individuell</title>
   </programme>
   <programme start="20260210143000 +0000" stop="20260210150500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Curling</title>
+    <title lang="sv">Curling Milano Cortina 2026</title>
   </programme>
   <programme start="20260210150500 +0000" stop="20260210155500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Freestyle</title>
+    <title lang="sv">Freestyle Milano Cortina 2026 Final Slopestyle</title>
   </programme>
   <programme start="20260210155500 +0000" stop="20260210165000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Rodel</title>
+    <title lang="sv">Rodel Milano Cortina 2026 3:e åket Singel</title>
     <desc lang="sv">Milano Cortina.(n)</desc>
   </programme>
   <programme start="20260210165000 +0000" stop="20260210172000 +0000" channel="Eurosport 1 FHD SE">
@@ -36960,30 +37028,33 @@
     <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
   </programme>
   <programme start="20260210172000 +0000" stop="20260210194500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Backhoppning</title>
+    <title lang="sv">Backhoppning Milano Cortina 2026 Lag</title>
   </programme>
   <programme start="20260210194500 +0000" stop="20260210214500 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Konståkning</title>
+    <title lang="sv">Konståkning Milano Cortina 2026 Kortprogram</title>
   </programme>
-  <programme start="20260210214500 +0000" stop="20260210223000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Ishockey</title>
+  <programme start="20260210214500 +0000" stop="20260210230000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Ishockey Milano Cortina 2026 Finland – Schweiz</title>
     <desc lang="sv">Milano Cortina.(n)</desc>
   </programme>
-  <programme start="20260210223000 +0000" stop="20260210230000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">A day at the olympics all sports Vinter-OS</title>
-    <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
-  </programme>
   <programme start="20260210230000 +0000" stop="20260210233000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Alpint</title>
+    <title lang="sv">Alpint Milano Cortina 2026 Störtlopp, kombinerat</title>
   </programme>
-  <programme start="20260210233000 +0000" stop="20260211001500 +0000" channel="Eurosport 1 FHD SE">
+  <programme start="20260210233000 +0000" stop="20260210234500 +0000" channel="Eurosport 1 FHD SE">
     <title lang="sv">A day at the olympics all sports Vinter-OS</title>
     <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
   </programme>
-  <programme start="20260211001500 +0000" stop="20260211010000 +0000" channel="Eurosport 1 FHD SE">
-    <title lang="sv">Alpint</title>
+  <programme start="20260210234500 +0000" stop="20260211001500 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Skidskytte Milano Cortina 2026 Individuell</title>
   </programme>
-  <programme start="20260211010000 +0000" stop="20260211023000 +0000" channel="Eurosport 1 FHD SE">
+  <programme start="20260211001500 +0000" stop="20260211002000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">Alpint Milano Cortina 2026 Slalom, kombinerat</title>
+  </programme>
+  <programme start="20260211002000 +0000" stop="20260211023000 +0000" channel="Eurosport 1 FHD SE">
+    <title lang="sv">A day at the olympics all sports Vinter-OS</title>
+    <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
+  </programme>
+  <programme start="20260211023000 +0000" stop="20260211030000 +0000" channel="Eurosport 1 FHD SE">
     <title lang="sv">A day at the olympics all sports Vinter-OS</title>
     <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
   </programme>
@@ -37073,56 +37144,63 @@
   <programme start="20260206030000 +0000" stop="20260206050000 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Curling Vinter-OS</title>
   </programme>
-  <programme start="20260206050000 +0000" stop="20260206080000 +0000" channel="Eurosport 2 FHD SE">
+  <programme start="20260206050000 +0000" stop="20260206075500 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Snooker World Grand Prix</title>
   </programme>
-  <programme start="20260206080000 +0000" stop="20260206090000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Curling</title>
+  <programme start="20260206075500 +0000" stop="20260206090000 +0000" channel="Eurosport 2 FHD SE">
+    <title lang="sv">Curling Milano Cortina 2026</title>
   </programme>
   <programme start="20260206090000 +0000" stop="20260206110500 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Curling</title>
+    <title lang="sv">Curling Milano Cortina 2026 Sverige – Storbritannien</title>
   </programme>
-  <programme start="20260206110500 +0000" stop="20260206124500 +0000" channel="Eurosport 2 FHD SE">
+  <programme start="20260206110500 +0000" stop="20260206124000 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Cykel World Tour UAE Tour Etapp 2</title>
   </programme>
-  <programme start="20260206124500 +0000" stop="20260206140000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Snowboard</title>
+  <programme start="20260206124000 +0000" stop="20260206140000 +0000" channel="Eurosport 2 FHD SE">
+    <title lang="sv">Snowboard Milano Cortina 2026 Big Air</title>
   </programme>
-  <programme start="20260206140000 +0000" stop="20260206143000 +0000" channel="Eurosport 2 FHD SE">
+  <programme start="20260206140000 +0000" stop="20260206144500 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Cykel Pro Series Tour of Valencia Etapp 2</title>
   </programme>
-  <programme start="20260206143000 +0000" stop="20260206160000 +0000" channel="Eurosport 2 FHD SE">
+  <programme start="20260206144500 +0000" stop="20260206161000 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Cykel Pro Series Tour of Valencia Etapp 3</title>
   </programme>
-  <programme start="20260206160000 +0000" stop="20260206180000 +0000" channel="Eurosport 2 FHD SE">
+  <programme start="20260206161000 +0000" stop="20260206180500 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Snooker World Grand Prix</title>
   </programme>
-  <programme start="20260206180000 +0000" stop="20260206193000 +0000" channel="Eurosport 2 FHD SE">
+  <programme start="20260206180500 +0000" stop="20260206193000 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Snooker World Grand Prix</title>
   </programme>
-  <programme start="20260206193000 +0000" stop="20260206210000 +0000" channel="Eurosport 2 FHD SE">
+  <programme start="20260206193000 +0000" stop="20260206203000 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Golf PGA-touren WM Phoenix Open</title>
   </programme>
-  <programme start="20260206210000 +0000" stop="20260207010000 +0000" channel="Eurosport 2 FHD SE">
+  <programme start="20260206203000 +0000" stop="20260207002500 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Golf PGA-touren WM Phoenix Open</title>
   </programme>
-  <programme start="20260207010000 +0000" stop="20260207023000 +0000" channel="Eurosport 2 FHD SE">
+  <programme start="20260207002500 +0000" stop="20260207010000 +0000" channel="Eurosport 2 FHD SE">
+    <title lang="sv">Formel E VM Miami</title>
+  </programme>
+  <programme start="20260207010000 +0000" stop="20260207022500 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Home of the Olympics</title>
     <desc lang="sv">Home of the Olympics.(n)</desc>
   </programme>
-  <programme start="20260207023000 +0000" stop="20260207040000 +0000" channel="Eurosport 2 FHD SE">
+  <programme start="20260207022500 +0000" stop="20260207033500 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Cykel Pro Series Tour of Valencia Etapp 3</title>
+  </programme>
+  <programme start="20260207033500 +0000" stop="20260207040000 +0000" channel="Eurosport 2 FHD SE">
+    <title lang="sv">Cykel Sammanfattning</title>
+    <desc lang="sv">Upplev alla oförglömliga live-ögonblick från sportens värld.(n)</desc>
   </programme>
   <programme start="20260207040000 +0000" stop="20260207050000 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Cykelcross Ethias Cross Maldegem</title>
   </programme>
-  <programme start="20260207050000 +0000" stop="20260207083000 +0000" channel="Eurosport 2 FHD SE">
+  <programme start="20260207050000 +0000" stop="20260207082500 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Snooker World Grand Prix</title>
   </programme>
-  <programme start="20260207083000 +0000" stop="20260207093000 +0000" channel="Eurosport 2 FHD SE">
+  <programme start="20260207082500 +0000" stop="20260207092500 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Cykel World Tour UAE Tour Etapp 1</title>
   </programme>
-  <programme start="20260207093000 +0000" stop="20260207105000 +0000" channel="Eurosport 2 FHD SE">
+  <programme start="20260207092500 +0000" stop="20260207105000 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Cykel World Tour UAE Tour Etapp 2</title>
   </programme>
   <programme start="20260207105000 +0000" stop="20260207124500 +0000" channel="Eurosport 2 FHD SE">
@@ -37138,22 +37216,22 @@
     <title lang="sv">Cykel Pro Series Tour of Valencia Etapp 4</title>
   </programme>
   <programme start="20260207161500 +0000" stop="20260207181000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Ishockey Vinter-OS USA – Finland</title>
+    <title lang="sv">Ishockey Milano Cortina 2026 USA – Finland</title>
   </programme>
   <programme start="20260207181000 +0000" stop="20260207233000 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Golf PGA-touren WM Phoenix Open</title>
   </programme>
-  <programme start="20260207233000 +0000" stop="20260208010000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Ishockey Vinter-OS USA – Finland</title>
+  <programme start="20260207233000 +0000" stop="20260208010500 +0000" channel="Eurosport 2 FHD SE">
+    <title lang="sv">Ishockey Milano Cortina 2026 USA – Finland</title>
   </programme>
-  <programme start="20260208010000 +0000" stop="20260208033000 +0000" channel="Eurosport 2 FHD SE">
+  <programme start="20260208010500 +0000" stop="20260208032000 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Snooker World Grand Prix</title>
   </programme>
-  <programme start="20260208033000 +0000" stop="20260208040000 +0000" channel="Eurosport 2 FHD SE">
+  <programme start="20260208032000 +0000" stop="20260208034500 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">A day at the olympics all sports Vinter-OS</title>
     <desc lang="sv">All sports Vinter-OS A day at the Olympics.(n)</desc>
   </programme>
-  <programme start="20260208040000 +0000" stop="20260208050000 +0000" channel="Eurosport 2 FHD SE">
+  <programme start="20260208034500 +0000" stop="20260208050000 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Bancykling EM</title>
   </programme>
   <programme start="20260208050000 +0000" stop="20260208083000 +0000" channel="Eurosport 2 FHD SE">
@@ -37194,88 +37272,88 @@
     <title lang="sv">Ishockey Vinter-OS Frankrike – Sverige</title>
   </programme>
   <programme start="20260209050000 +0000" stop="20260209070000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Skidskytte</title>
+    <title lang="sv">Skidskytte Milano Cortina 2026 Stafett</title>
   </programme>
   <programme start="20260209070000 +0000" stop="20260209090000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Curling</title>
+    <title lang="sv">Curling Milano Cortina 2026</title>
   </programme>
   <programme start="20260209090000 +0000" stop="20260209110500 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Curling</title>
+    <title lang="sv">Curling Milano Cortina 2026 Italien – USA</title>
   </programme>
   <programme start="20260209110500 +0000" stop="20260209134000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Ishockey</title>
+    <title lang="sv">Ishockey Milano Cortina 2026 Japan – Italien</title>
   </programme>
   <programme start="20260209134000 +0000" stop="20260209155500 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Ishockey</title>
+    <title lang="sv">Ishockey Milano Cortina 2026 Frankrike – Sverige</title>
   </programme>
   <programme start="20260209155500 +0000" stop="20260209165000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Rodel</title>
+    <title lang="sv">Rodel Milano Cortina 2026 1:a åket Singel</title>
     <desc lang="sv">Milano/Cortina.(n)</desc>
   </programme>
   <programme start="20260209165000 +0000" stop="20260209172500 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Rodel</title>
   </programme>
   <programme start="20260209172500 +0000" stop="20260209182000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Rodel</title>
+    <title lang="sv">Rodel Milano Cortina 2026 2:a åket Singel</title>
   </programme>
   <programme start="20260209182000 +0000" stop="20260209194000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Snowboard</title>
+    <title lang="sv">Snowboard Milano Cortina 2026 Big Air</title>
   </programme>
   <programme start="20260209194000 +0000" stop="20260209221000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Ishockey</title>
+    <title lang="sv">Ishockey Milano Cortina 2026 Schweiz – USA</title>
   </programme>
   <programme start="20260209221000 +0000" stop="20260210004500 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Golf PGA-touren WM Phoenix Open</title>
   </programme>
   <programme start="20260210004500 +0000" stop="20260210032000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Ishockey</title>
+    <title lang="sv">Ishockey Milano Cortina 2026 Italien</title>
   </programme>
   <programme start="20260210032000 +0000" stop="20260210045000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Rodel</title>
+    <title lang="sv">Rodel Milano Cortina 2026 1:a åket Singel</title>
     <desc lang="sv">Milano/Cortina.(n)</desc>
   </programme>
   <programme start="20260210051500 +0000" stop="20260210054500 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Cykel Pro Series Tour of Valencia Etapp 5</title>
   </programme>
+  <programme start="20260210054500 +0000" stop="20260210074500 +0000" channel="Eurosport 2 FHD SE">
+    <title lang="sv">Snowboard Milano Cortina 2026 Big Air</title>
+  </programme>
   <programme start="20260210074500 +0000" stop="20260210083000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Skridsko</title>
+    <title lang="sv">Skridsko Milano Cortina 2026 1000m</title>
   </programme>
   <programme start="20260210083000 +0000" stop="20260210085000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Skridsko</title>
+    <title lang="sv">Skridsko Milano Cortina 2026 1000m</title>
   </programme>
   <programme start="20260210085000 +0000" stop="20260210101000 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Snowboard Vinter-OS Milano Cortina 2026 Big Air</title>
   </programme>
   <programme start="20260210101000 +0000" stop="20260210111500 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Freestyle</title>
+    <title lang="sv">Freestyle Milano Cortina 2026 Kval Puckelpist</title>
   </programme>
   <programme start="20260210111500 +0000" stop="20260210125500 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Freestyle</title>
+    <title lang="sv">Freestyle Milano Cortina 2026 Final Slopestyle</title>
   </programme>
   <programme start="20260210125500 +0000" stop="20260210143000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Skidskytte</title>
+    <title lang="sv">Skidskytte Milano Cortina 2026 Individuell</title>
   </programme>
   <programme start="20260210143000 +0000" stop="20260210150000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Skridsko</title>
+    <title lang="sv">Skridsko Milano Cortina 2026 1000m</title>
   </programme>
   <programme start="20260210150000 +0000" stop="20260210170000 +0000" channel="Eurosport 2 FHD SE">
     <title lang="sv">Basket NBA</title>
   </programme>
   <programme start="20260210170000 +0000" stop="20260210191000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Curling</title>
+    <title lang="sv">Curling Milano Cortina 2026</title>
   </programme>
   <programme start="20260210191000 +0000" stop="20260210214000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Ishockey</title>
+    <title lang="sv">Ishockey Milano Cortina 2026 Kanada – USA</title>
     <desc lang="sv">Milano Cortina.(n)</desc>
   </programme>
-  <programme start="20260210214000 +0000" stop="20260211024000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Basket NBA</title>
-  </programme>
   <programme start="20260211024000 +0000" stop="20260211034000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Curling</title>
+    <title lang="sv">Curling Milano Cortina 2026</title>
   </programme>
   <programme start="20260211034000 +0000" stop="20260211044000 +0000" channel="Eurosport 2 FHD SE">
-    <title lang="sv">Rodel</title>
+    <title lang="sv">Rodel Milano Cortina 2026 3:e åket Singel</title>
     <desc lang="sv">Milano Cortina.(n)</desc>
   </programme>
   <programme start="20260204120000 +0000" stop="20260204130000 +0000" channel="V Sport Motor FHD SE">
