@@ -3,7 +3,7 @@ name: Run WebGrab EPG (server)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 3 */3 * *"
+    - cron: "30 3 */5 * *"
 
 jobs:
   run-epg:
