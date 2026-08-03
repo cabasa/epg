@@ -8,17 +8,21 @@ on:
 jobs:
   run-epg:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Connect runner to your tailnet
+      # Connect runner to your tailnet using OAuth
       - name: Tailscale up
-        uses: tailscale/github-action@v3
+        uses: tailscale/github-action@v4
         with:
-          authkey: ${{ secrets.TS_AUTHKEY }}
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:gh-runner
+          ping: ${{ secrets.SSH_HOST }}
 
-      # SSH to server over the tailnet IP
+      # SSH to server over the tailnet
       - name: Run EPG on server
         uses: appleboy/ssh-action@v1.0.3
         with:
