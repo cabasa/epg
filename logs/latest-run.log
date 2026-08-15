@@ -1,4 +1,4 @@
-=== Run started: tor 13 aug 2026 05:15:27 UTC ===
+=== Run started: lör 15 aug 2026 04:00:22 UTC ===
 
            WebGrab+Plus/w MDB & REX Postprocess -- version  V5.3.0.0            
 
@@ -8,7 +8,7 @@
  thanks to Paul Weterings, Mat8861, Blackbear199 and all the contributing users 
 --------------------------------------------------------------------------------
 
-Job started at 13/08/2026 05:15:27
+Job started at 15/08/2026 04:00:22
 Checking Internet ..
 For License request/update data, see WGLicense.log.txt
 Checking License ..
@@ -82,34 +82,34 @@ Found existing channel (xmltv_id=Sky Sports F1 FHD UK) in the config file
 Group (0) :
 update requested for - 53 - out of - 53 - channels for 7 day(s)
 (   1/53  ) DAGENSTV.COM -- chan. (xmltv_id=SVT1 FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       SVT1 FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           183
+     new shows added           186
      unchanged shows inspected 0
-     total after update        183
+     total after update        186
 
 (   2/53  ) DAGENSTV.COM -- chan. (xmltv_id=SVT2 FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       SVT2 FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           129
+     new shows added           127
      unchanged shows inspected 0
-     total after update        129
+     total after update        127
 
 (   3/53  ) DAGENSTV.COM -- chan. (xmltv_id=TV3 FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       TV3 FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           174
+     new shows added           177
      unchanged shows inspected 0
-     total after update        174
+     total after update        177
 
 (   4/53  ) DAGENSTV.COM -- chan. (xmltv_id=TV4 FHD SE) -- mode Force
 iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
@@ -142,14 +142,14 @@ iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
      total after update        173
 
 (   7/53  ) DAGENSTV.COM -- chan. (xmltv_id=Sjuan HD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       Sjuan HD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           164
+     new shows added           167
      unchanged shows inspected 0
-     total after update        164
+     total after update        167
 
 (   8/53  ) DAGENSTV.COM -- chan. (xmltv_id=TV8 FHD SE) -- mode Force
 iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
@@ -162,64 +162,64 @@ iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
      total after update        152
 
 (   9/53  ) DAGENSTV.COM -- chan. (xmltv_id=Kanal 9 FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       Kanal 9 FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           224
+     new shows added           225
      unchanged shows inspected 0
-     total after update        224
+     total after update        225
 
 (  10/53  ) DAGENSTV.COM -- chan. (xmltv_id=TV10 HD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
-
-   Summary for update of       TV10 HD SE
-     missing shows added       0
-     changed shows updated     0
-     new shows added           197
-     unchanged shows inspected 0
-     total after update        197
-
-(  11/53  ) DAGENSTV.COM -- chan. (xmltv_id=Kanal 11 HD SE) -- mode Force
 iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
-   Summary for update of       Kanal 11 HD SE
+   Summary for update of       TV10 HD SE
      missing shows added       0
      changed shows updated     0
      new shows added           193
      unchanged shows inspected 0
      total after update        193
 
+(  11/53  ) DAGENSTV.COM -- chan. (xmltv_id=Kanal 11 HD SE) -- mode Force
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+   Summary for update of       Kanal 11 HD SE
+     missing shows added       0
+     changed shows updated     0
+     new shows added           198
+     unchanged shows inspected 0
+     total after update        198
+
 (  12/53  ) DAGENSTV.COM -- chan. (xmltv_id=TV12 HD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       TV12 HD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           153
+     new shows added           152
      unchanged shows inspected 0
-     total after update        153
+     total after update        152
 
 (  13/53  ) DAGENSTV.COM -- chan. (xmltv_id=TV12 FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       TV12 FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           153
+     new shows added           152
      unchanged shows inspected 0
-     total after update        153
+     total after update        152
 
 (  14/53  ) DAGENSTV.COM -- chan. (xmltv_id=Travel Channel HD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       Travel Channel HD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           167
+     new shows added           166
      unchanged shows inspected 0
-     total after update        167
+     total after update        166
 
 (  15/53  ) VIRGINMEDIA.COM -- chan. (xmltv_id=TLC FHD SE) -- mode Force
 pipipipipipipipipipipipipipipipipipipipipipipipipipipipi
@@ -231,14 +231,14 @@ no shows in indexpage!
      total after update        0
 
 (  16/53  ) ALLENTE.SE -- chan. (xmltv_id=GodareTV FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       GodareTV FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           316
+     new shows added           310
      unchanged shows inspected 0
-     total after update        316
+     total after update        310
 
 (  17/53  ) DAGENSTV.COM -- chan. (xmltv_id=TV4 Guld SE) -- mode Force
 iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
@@ -261,24 +261,24 @@ iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
      total after update        250
 
 (  19/53  ) DAGENSTV.COM -- chan. (xmltv_id=Discovery Science FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       Discovery Science FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           275
+     new shows added           276
      unchanged shows inspected 0
-     total after update        275
+     total after update        276
 
 (  20/53  ) DAGENSTV.COM -- chan. (xmltv_id=Discovery Channel FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       Discovery Channel FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           504
+     new shows added           513
      unchanged shows inspected 0
-     total after update        504
+     total after update        513
 
 (  21/53  ) ALLENTE.SE_SIMPLE -- chan. (xmltv_id=Investigation Discovery HD SE) -- mode Force
 iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
@@ -311,44 +311,44 @@ iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
      total after update        194
 
 (  24/53  ) DAGENSTV.COM -- chan. (xmltv_id=National Geographic FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       National Geographic FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           166
+     new shows added           167
      unchanged shows inspected 0
-     total after update        166
+     total after update        167
 
 (  25/53  ) DAGENSTV.COM -- chan. (xmltv_id=History FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       History FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           181
+     new shows added           182
      unchanged shows inspected 0
-     total after update        181
+     total after update        182
 
 (  26/53  ) ALLENTE.SE_SIMPLE -- chan. (xmltv_id=BBC World News SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       BBC World News SE
      missing shows added       0
      changed shows updated     0
-     new shows added           384
+     new shows added           387
      unchanged shows inspected 0
-     total after update        384
+     total after update        387
 
 (  27/53  ) ALLENTE.SE_SIMPLE -- chan. (xmltv_id=SVT Kunskapskanalen FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       SVT Kunskapskanalen FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           100
+     new shows added           96
      unchanged shows inspected 0
-     total after update        100
+     total after update        96
 
 (  28/53  ) DAGENSTV.COM -- chan. (xmltv_id=Al Jazeera FHD SE) -- mode Force
 iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
@@ -361,24 +361,24 @@ iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
      total after update        265
 
 (  29/53  ) DAGENSTV.COM -- chan. (xmltv_id=Eurosport 1 FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       Eurosport 1 FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           136
+     new shows added           135
      unchanged shows inspected 0
-     total after update        136
+     total after update        135
 
 (  30/53  ) DAGENSTV.COM -- chan. (xmltv_id=Eurosport 2 FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       Eurosport 2 FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           125
+     new shows added           122
      unchanged shows inspected 0
-     total after update        125
+     total after update        122
 
 (  31/53  ) ALLENTE.SE_SIMPLE -- chan. (xmltv_id=V Sport Motor FHD SE) -- mode Force
 iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
@@ -391,164 +391,164 @@ iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
      total after update        98
 
 (  32/53  ) ALLENTE.SE -- chan. (xmltv_id=TV4 Motor HD FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       TV4 Motor HD FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           33
+     new shows added           50
      unchanged shows inspected 0
-     total after update        33
+     total after update        50
 
 (  33/53  ) ALLENTE.SE_SIMPLE -- chan. (xmltv_id=TV4 Hockey FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       TV4 Hockey FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           61
+     new shows added           62
      unchanged shows inspected 0
-     total after update        61
+     total after update        62
 
 (  34/53  ) ALLENTE.SE_SIMPLE -- chan. (xmltv_id=TV4 Sportkanalen FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       TV4 Sportkanalen FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           159
+     new shows added           153
      unchanged shows inspected 0
-     total after update        159
+     total after update        153
 
 (  35/53  ) ALLENTE.SE_SIMPLE -- chan. (xmltv_id=TV4 Sport Live FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       TV4 Sport Live FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           30
+     new shows added           42
      unchanged shows inspected 0
-     total after update        30
+     total after update        42
 
 (  36/53  ) ALLENTE.SE_SIMPLE -- chan. (xmltv_id=TV4 Sport Live HD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       TV4 Sport Live HD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           30
+     new shows added           42
      unchanged shows inspected 0
-     total after update        30
+     total after update        42
 
 (  37/53  ) ALLENTE.SE_SIMPLE -- chan. (xmltv_id=TV4 Sport Live 2 FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       TV4 Sport Live 2 FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           31
+     new shows added           42
      unchanged shows inspected 0
-     total after update        31
+     total after update        42
 
 (  38/53  ) ALLENTE.SE_SIMPLE -- chan. (xmltv_id=TV4 Sport Live 2 HD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       TV4 Sport Live 2 HD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           31
+     new shows added           42
      unchanged shows inspected 0
-     total after update        31
+     total after update        42
 
 (  39/53  ) ALLENTE.SE_SIMPLE -- chan. (xmltv_id=TV4 Sport Live 3 FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       TV4 Sport Live 3 FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           30
+     new shows added           42
      unchanged shows inspected 0
-     total after update        30
+     total after update        42
 
 (  40/53  ) ALLENTE.SE_SIMPLE -- chan. (xmltv_id=TV4 Sport Live 3 HD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       TV4 Sport Live 3 HD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           30
+     new shows added           42
      unchanged shows inspected 0
-     total after update        30
+     total after update        42
 
 (  41/53  ) ALLENTE.SE_SIMPLE -- chan. (xmltv_id=TV4 Sport Live 4 FHD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       TV4 Sport Live 4 FHD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           33
+     new shows added           40
      unchanged shows inspected 0
-     total after update        33
+     total after update        40
 
 (  42/53  ) ALLENTE.SE_SIMPLE -- chan. (xmltv_id=TV4 Sport Live 4 HD SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       TV4 Sport Live 4 HD SE
      missing shows added       0
      changed shows updated     0
-     new shows added           33
+     new shows added           40
      unchanged shows inspected 0
-     total after update        33
+     total after update        40
 
 (  43/53  ) ALLENTE.SE_SIMPLE -- chan. (xmltv_id=TV4 Sport Live 3 SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       TV4 Sport Live 3 SE
      missing shows added       0
      changed shows updated     0
-     new shows added           30
+     new shows added           42
      unchanged shows inspected 0
-     total after update        30
+     total after update        42
 
 (  44/53  ) VIRGINMEDIA.COM -- chan. (xmltv_id=Food Network UK) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       Food Network UK
      missing shows added       0
      changed shows updated     0
-     new shows added           273
+     new shows added           274
      unchanged shows inspected 0
-     total after update        273
+     total after update        274
 
 (  45/53  ) VIRGINMEDIA.COM -- chan. (xmltv_id=BBC One HD UK) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       BBC One HD UK
      missing shows added       0
      changed shows updated     0
-     new shows added           236
+     new shows added           243
      unchanged shows inspected 0
-     total after update        236
+     total after update        243
 
 (  46/53  ) VIRGINMEDIA.COM -- chan. (xmltv_id=Sky Witness HD UK) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       Sky Witness HD UK
      missing shows added       0
      changed shows updated     0
-     new shows added           227
+     new shows added           229
      unchanged shows inspected 0
-     total after update        227
+     total after update        229
 
 (  47/53  ) VIRGINMEDIA.COM -- chan. (xmltv_id=Sky Documentaries HD UK) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       Sky Documentaries HD UK
      missing shows added       0
      changed shows updated     0
-     new shows added           128
+     new shows added           129
      unchanged shows inspected 0
-     total after update        128
+     total after update        129
 
 (  48/53  ) VIRGINMEDIA.COM -- chan. (xmltv_id=True Crime Network UK) -- mode Force
 iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
@@ -561,24 +561,24 @@ iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
      total after update        252
 
 (  49/53  ) VIRGINMEDIA.COM -- chan. (xmltv_id=Sky Crime FHD UK) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       Sky Crime FHD UK
      missing shows added       0
      changed shows updated     0
-     new shows added           171
+     new shows added           169
      unchanged shows inspected 0
-     total after update        171
+     total after update        169
 
 (  50/53  ) FREEVIEW.COM.AU -- chan. (xmltv_id=ABC Melbourne AU) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       ABC Melbourne AU
      missing shows added       0
      changed shows updated     0
-     new shows added           191
+     new shows added           192
      unchanged shows inspected 0
-     total after update        191
+     total after update        192
 
 (  51/53  ) FREEVIEW.COM.AU -- chan. (xmltv_id=ABC News AU) -- mode Force
 iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
@@ -591,26 +591,26 @@ iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
      total after update        248
 
 (  52/53  ) VIRGINMEDIA.COM -- chan. (xmltv_id=Sky Sports F1 HD UK) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       Sky Sports F1 HD UK
      missing shows added       0
      changed shows updated     0
-     new shows added           193
+     new shows added           200
      unchanged shows inspected 0
-     total after update        193
+     total after update        200
 
 (  53/53  ) VIRGINMEDIA.COM -- chan. (xmltv_id=Sky Sports F1 FHD UK) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       Sky Sports F1 FHD UK
      missing shows added       0
      changed shows updated     0
-     new shows added           193
+     new shows added           200
      unchanged shows inspected 0
-     total after update        193
+     total after update        200
 
 
 
-Job finished at 13/08/2026 05:20:39 done in 5m 11s
-=== Run finished: tor 13 aug 2026 05:20:47 UTC ===
+Job finished at 15/08/2026 04:04:10 done in 3m 47s
+=== Run finished: lör 15 aug 2026 04:04:18 UTC ===
