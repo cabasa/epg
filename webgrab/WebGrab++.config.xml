@@ -45,7 +45,7 @@
   <channel update="i" site="dagenstv.com" site_id="tv12" xmltv_id="TV12 FHD SE">TV12 FHD SE</channel>
   <channel update="i" site="dagenstv.com" site_id="travel-channel" xmltv_id="Travel Channel HD SE">Travel Channel HD SE</channel>
   <channel update="i" site="virginmedia.com" site_id="1711" xmltv_id="TLC FHD SE">TLC FHD SE</channel>
-  <channel update="i" site="omtv.se" site_id="godare" xmltv_id="Köket SE">Köket SE</channel>
+  <channel update="i" site="omtv.se" site_id="godare" xmltv_id="godare.se">Köket SE</channel>
   <channel update="i" site="dagenstv.com" site_id="tv4-guld" xmltv_id="TV4 Guld SE">TV4 Guld SE</channel>
   <channel update="i" site="dagenstv.com" site_id="discovery-science" xmltv_id="Discovery Science FHD SE">Discovery Science FHD SE</channel>
   <channel update="i" site="dagenstv.com" site_id="disney-channel" xmltv_id="Discovery Channel FHD SE">Discovery Channel FHD SE</channel>
@@ -70,13 +70,13 @@
 <channel update="i" site="dagenstv.com" site_id="tv4-sport-live-3" xmltv_id="TV4 Sport Live 3 SE">TV4 Sport Live 3 SE</channel>
 <channel update="i" site="dagenstv.com" site_id="tv4-sport-live-4" xmltv_id="TV4 Sport Live 4 FHD SE">TV4 Sport Live 4 FHD SE</channel>
 <channel update="i" site="dagenstv.com" site_id="tv4-sport-live-4" xmltv_id="TV4 Sport Live 4 HD SE">TV4 Sport Live 4 HD SE</channel>
-<channel update="i" site="tvguide.dk" site_id="se##https://www.zaptv.se/kanaler/tv4-motor" xmltv_id="TV4 Motor HD FHD SE">TV4 Motor HD FHD SE</channel>
+<channel update="i" site="tvguide.dk" site_id="se##https://www.zaptv.se/kanaler/tv4-motor" xmltv_id="tv4motor.se">TV4 Motor HD FHD SE</channel>
 
   <channel update="i" site="virginmedia.com" site_id="1729" xmltv_id="Food Network UK">
     Food Network UK
 </channel>
   <channel update="i" site="omtv.se" site_id="kunskapskanalen" xmltv_id="SVT Kunskapskanalen FHD SE">SVT Kunskapskanalen FHD SE</channel>
-<channel update="i" site="omtv.se" site_id="investigation_discovery" xmltv_id="Investigation Discovery SE">Investigation Discovery SE</channel>
+<channel update="i" site="omtv.se" site_id="investigation_discovery" xmltv_id="investigationdiscovery.se">Investigation Discovery SE</channel>
   <channel update="i" site="virginmedia.com" site_id="2248" xmltv_id="BBC One HD UK">BBC One HD UK</channel>
   <channel update="i" site="virginmedia.com" site_id="1406" xmltv_id="Sky Witness HD UK">Sky Witness HD UK</channel>
   <channel update="i" site="virginmedia.com" site_id="2127" xmltv_id="Sky Documentaries HD UK">Sky Documentaries HD UK</channel>
