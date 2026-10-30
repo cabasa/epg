@@ -49,7 +49,6 @@
   <channel update="i" site="dagenstv.com" site_id="tv4-guld" xmltv_id="TV4 Guld SE">TV4 Guld SE</channel>
   <channel update="i" site="dagenstv.com" site_id="discovery-science" xmltv_id="Discovery Science FHD SE">Discovery Science FHD SE</channel>
   <channel update="i" site="dagenstv.com" site_id="disney-channel" xmltv_id="Discovery Channel FHD SE">Discovery Channel FHD SE</channel>
-  <channel update="i" site="dagenstv.com" site_id="investigation-discovery" xmltv_id="Investigation Discovery SE">Investigation Discovery SE</channel>
   <channel update="i" site="dagenstv.com" site_id="animal-planet" xmltv_id="Animal Planet FHD SE">Animal Planet FHD SE</channel>
   <channel update="i" site="dagenstv.com" site_id="national-geographic" xmltv_id="National Geographic FHD SE">National Geographic FHD SE</channel>
   <channel update="i" site="dagenstv.com" site_id="history-channel" xmltv_id="History FHD SE">History FHD SE</channel>
