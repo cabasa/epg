@@ -1,4 +1,4 @@
-=== Run started: fre 30 okt 2026 15:33:51 UTC ===
+=== Run started: fre 30 okt 2026 21:31:20 UTC ===
 Using GitHub configuration: /home/cabasa/epg/webgrab/WebGrab++.config.xml
 EPG output: /home/cabasa/epg/epg.xml
 
@@ -10,7 +10,7 @@ EPG output: /home/cabasa/epg/epg.xml
  thanks to Paul Weterings, Mat8861, Blackbear199 and all the contributing users 
 --------------------------------------------------------------------------------
 
-Job started at 30/10/2026 15:33:51
+Job started at 30/10/2026 21:31:20
 Checking Internet ..
 For License request/update data, see WGLicense.log.txt
 Checking License ..
@@ -39,7 +39,7 @@ Found existing channel (xmltv_id=TV12 HD SE) in the config file
 Found existing channel (xmltv_id=TV12 FHD SE) in the config file
 Found existing channel (xmltv_id=Travel Channel HD SE) in the config file
 Found existing channel (xmltv_id=TLC FHD SE) in the config file
-Found existing channel (xmltv_id=Köket SE) in the config file
+Found existing channel (xmltv_id=godare.se) in the config file
 Found existing channel (xmltv_id=TV4 Guld SE) in the config file
 Found existing channel (xmltv_id=Discovery Science FHD SE) in the config file
 Found existing channel (xmltv_id=Discovery Channel FHD SE) in the config file
@@ -63,10 +63,10 @@ Found existing channel (xmltv_id=TV4 Sport Live 3 HD SE) in the config file
 Found existing channel (xmltv_id=TV4 Sport Live 3 SE) in the config file
 Found existing channel (xmltv_id=TV4 Sport Live 4 FHD SE) in the config file
 Found existing channel (xmltv_id=TV4 Sport Live 4 HD SE) in the config file
-Found existing channel (xmltv_id=TV4 Motor HD FHD SE) in the config file
+Found existing channel (xmltv_id=tv4motor.se) in the config file
 Found existing channel (xmltv_id=Food Network UK) in the config file
 Found existing channel (xmltv_id=SVT Kunskapskanalen FHD SE) in the config file
-Found existing channel (xmltv_id=Investigation Discovery SE) in the config file
+Found existing channel (xmltv_id=investigationdiscovery.se) in the config file
 Found existing channel (xmltv_id=BBC One HD UK) in the config file
 Found existing channel (xmltv_id=Sky Witness HD UK) in the config file
 Found existing channel (xmltv_id=Sky Documentaries HD UK) in the config file
@@ -77,7 +77,6 @@ Found existing channel (xmltv_id=ABC News AU) in the config file
 Found existing channel (xmltv_id=Sky Sports F1 HD UK) in the config file
 Found existing channel (xmltv_id=Sky Sports F1 FHD UK) in the config file
 ......................................................
-time offset change detected for site omtv.se from: +0000 to: +0100
 
 
       i=index  .=same  c=change  g=gab  r=replace  n=new
@@ -234,13 +233,10 @@ no shows in indexpage!
      unchanged shows inspected 0
      total after update        0
 
-(  16/52  ) OMTV.SE -- chan. (xmltv_id=Köket SE) -- mode Force
-iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
-error downloading page : TimeOut (5 sec)
-retry 1 of 4 times
-nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+(  16/52  ) OMTV.SE -- chan. (xmltv_id=godare.se) -- mode Force
+iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
-   Summary for update of       Köket SE
+   Summary for update of       godare.se
      missing shows added       0
      changed shows updated     0
      new shows added           288
@@ -476,13 +472,13 @@ iiiiiiinnnnn
      unchanged shows inspected 0
      total after update        5
 
-(  39/52  ) TVGUIDE.DK -- chan. (xmltv_id=TV4 Motor HD FHD SE) -- mode Force
+(  39/52  ) TVGUIDE.DK -- chan. (xmltv_id=tv4motor.se) -- mode Force
 innnnnnn
 error downloading page: Response status code does not indicate success: 429 (Too Many Requests).
 n
 error downloading page: Response status code does not indicate success: 429 (Too Many Requests).
 
-   Summary for update of       TV4 Motor HD FHD SE
+   Summary for update of       tv4motor.se
      missing shows added       0
      changed shows updated     0
      new shows added           8
@@ -518,10 +514,10 @@ nnnnnn
      unchanged shows inspected 0
      total after update        88
 
-(  42/52  ) OMTV.SE -- chan. (xmltv_id=Investigation Discovery SE) -- mode Force
+(  42/52  ) OMTV.SE -- chan. (xmltv_id=investigationdiscovery.se) -- mode Force
 iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
-   Summary for update of       Investigation Discovery SE
+   Summary for update of       investigationdiscovery.se
      missing shows added       0
      changed shows updated     0
      new shows added           169
@@ -620,5 +616,5 @@ iiiiiiinnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
 
 
-Job finished at 30/10/2026 15:42:47 done in 8m 56s
-=== Run finished: fre 30 okt 2026 15:42:55 UTC ===
+Job finished at 30/10/2026 21:39:14 done in 7m 53s
+=== Run finished: fre 30 okt 2026 21:39:22 UTC ===
