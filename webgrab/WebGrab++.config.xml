@@ -44,11 +44,11 @@
   <channel update="i" site="dagenstv.com" site_id="tv12" xmltv_id="TV12 HD SE">TV12 HD SE</channel>
   <channel update="i" site="dagenstv.com" site_id="tv12" xmltv_id="TV12 FHD SE">TV12 FHD SE</channel>
   <channel update="i" site="dagenstv.com" site_id="travel-channel" xmltv_id="Travel Channel HD SE">Travel Channel HD SE</channel>
-  <channel update="i" site="virginmedia.com" site_id="1711" xmltv_id="TLC FHD SE">TLC FHD SE</channel>
-  <channel update="i" site="omtv.se" site_id="godare" xmltv_id="godare.se">Köket SE</channel>
+  <channel update="i" site="dagenstv.com" site_id="tlc-hd" xmltv_id="tlc.se">TLC FHD SE</channel>
+  <channel update="i" site="dagenstv.com" site_id="godare" xmltv_id="godare.se">Köket FHD SE</channel>
   <channel update="i" site="dagenstv.com" site_id="tv4-guld" xmltv_id="TV4 Guld SE">TV4 Guld SE</channel>
   <channel update="i" site="dagenstv.com" site_id="discovery-science" xmltv_id="Discovery Science FHD SE">Discovery Science FHD SE</channel>
-  <channel update="i" site="dagenstv.com" site_id="disney-channel" xmltv_id="Discovery Channel FHD SE">Discovery Channel FHD SE</channel>
+  <channel update="i" site="dagenstv.com" site_id="discovery-channel" xmltv_id="discoverychannel.se">Discovery Channel FHD SE</channel>
   <channel update="i" site="dagenstv.com" site_id="animal-planet" xmltv_id="Animal Planet FHD SE">Animal Planet FHD SE</channel>
   <channel update="i" site="dagenstv.com" site_id="national-geographic" xmltv_id="National Geographic FHD SE">National Geographic FHD SE</channel>
   <channel update="i" site="dagenstv.com" site_id="history-channel" xmltv_id="History FHD SE">History FHD SE</channel>
@@ -57,7 +57,7 @@
   <channel update="i" site="dagenstv.com" site_id="al-jazeera-eng" xmltv_id="Al Jazeera FHD SE">Al Jazeera FHD SE</channel>
   <channel update="i" site="dagenstv.com" site_id="eurosport-1" xmltv_id="Eurosport 1 FHD SE">Eurosport 1 FHD SE</channel>
   <channel update="i" site="dagenstv.com" site_id="eurosport-2" xmltv_id="Eurosport 2 FHD SE">Eurosport 2 FHD SE</channel>
-  <channel update="i" site="allente.se_simple" site_id="0292" xmltv_id="V Sport Motor FHD SE">V Sport Motor FHD SE</channel>
+  <channel update="i" site="dagenstv.com" site_id="v-sport-motor-hd" xmltv_id="viasatmotor.se">V Sport Motor FHD SE</channel>
   
   <channel update="i" site="dagenstv.com" site_id="tv4-hockey" xmltv_id="TV4 Hockey FHD SE">TV4 Hockey FHD SE</channel>
 <channel update="i" site="dagenstv.com" site_id="tv4-sportkanalen" xmltv_id="TV4 Sportkanalen FHD SE">TV4 Sportkanalen FHD SE</channel>
@@ -70,19 +70,19 @@
 <channel update="i" site="dagenstv.com" site_id="tv4-sport-live-3" xmltv_id="TV4 Sport Live 3 SE">TV4 Sport Live 3 SE</channel>
 <channel update="i" site="dagenstv.com" site_id="tv4-sport-live-4" xmltv_id="TV4 Sport Live 4 FHD SE">TV4 Sport Live 4 FHD SE</channel>
 <channel update="i" site="dagenstv.com" site_id="tv4-sport-live-4" xmltv_id="TV4 Sport Live 4 HD SE">TV4 Sport Live 4 HD SE</channel>
-<channel update="i" site="tvguide.dk" site_id="se##https://www.zaptv.se/kanaler/tv4-motor" xmltv_id="tv4motor.se">TV4 Motor HD FHD SE</channel>
+<channel update="i" site="tvguide.dk" site_id="se##https://www.zaptv.se/kanaler/tv4-motor" xmltv_id="tv4motor.se">TV4 Motor FHD SE</channel>
 
   <channel update="i" site="virginmedia.com" site_id="1729" xmltv_id="Food Network UK">
     Food Network UK
 </channel>
-  <channel update="i" site="omtv.se" site_id="kunskapskanalen" xmltv_id="SVT Kunskapskanalen FHD SE">SVT Kunskapskanalen FHD SE</channel>
-<channel update="i" site="omtv.se" site_id="investigation_discovery" xmltv_id="investigationdiscovery.se">Investigation Discovery SE</channel>
+<channel update="i" site="dagenstv.com" site_id="kunskapskanalen" xmltv_id="kunskapskanalen.se">SVT Kunskapskanalen FHD SE</channel>
+<channel update="i" site="dagenstv.com" site_id="investigation-discovery" xmltv_id="investigationdiscovery.se">Investigation Discovery HD SE</channel>
   <channel update="i" site="virginmedia.com" site_id="2248" xmltv_id="BBC One HD UK">BBC One HD UK</channel>
   <channel update="i" site="virginmedia.com" site_id="1406" xmltv_id="Sky Witness HD UK">Sky Witness HD UK</channel>
   <channel update="i" site="virginmedia.com" site_id="2127" xmltv_id="Sky Documentaries HD UK">Sky Documentaries HD UK</channel>
   <channel update="i" site="virginmedia.com" site_id="195" xmltv_id="True Crime Network UK">True Crime Network UK</channel>
   <channel update="i" site="virginmedia.com" site_id="2083" xmltv_id="Sky Crime FHD UK">Sky Crime FHD UK</channel>
-  <channel update="i" site="freeview.com.au" site_id="1010:0231:0231##ABC.png" xmltv_id="ABC Melbourne AU">ABC Melbourne AU</channel>
+  <channel update="i" site="freeview.com.au" site_id="1010:0231:0231##ABC.png" xmltv_id="abcmelbourne.au">ABC Melbourne HD AU</channel>
   <channel update="i" site="freeview.com.au" site_id="1010:0221:0220##ABCNews.png" xmltv_id="ABC News AU">ABC News AU</channel>
   <channel update="i" site="virginmedia.com" site_id="1771" xmltv_id="Sky Sports F1 HD UK">Sky Sports F1 HD UK</channel>
   <channel update="i" site="virginmedia.com" site_id="1771" xmltv_id="Sky Sports F1 FHD UK">Sky Sports F1 FHD UK</channel>
@@ -101,4 +101,5 @@
   
   <channel update="i" site="tv.nu" site_id="c-more-live-5" xmltv_id="C More Live 5 FHD SE">C More Live 5 FHD SE</channel>
    -->
+  <channel update="i" site="tvguide.co.uk" site_id="crime-plus-investigation-hd" xmltv_id="crimeandinvestigationnetwork.uk">Crime &amp; Investigation FHD UK</channel>
 </settings>
